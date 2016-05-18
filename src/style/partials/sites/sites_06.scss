@@ -1,0 +1,173 @@
+#sites_06 {
+    padding: 60px 0;
+    .title {
+        @extend %h2;
+        span {
+            @extend %h2-span;
+        }
+    }
+    .case {
+        width: 70%;
+        margin: 45px auto 0;
+        
+    }
+    .border {
+        .border {
+            padding: 25px;
+        }
+    }
+    .border {
+        box-shadow: 0 0 30px 10px rgba(0,0,0,0.1);
+        padding: 50px;
+        .case-image {
+            text-align: center;
+        }
+        .case-action {
+            text-align: center;
+            p {
+                font-size: 3.86rem;
+                margin: 30px auto;
+                padding: 3px 6px;
+                background-color: $lemon-yellow;
+                line-height: 1;
+                display: inline-block;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+        }
+        .case-bar {
+            width: 100%;
+            margin-top: 35px;
+            .before {
+                text-align: right;
+                p {
+                    font-size: 3.7rem;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    line-height: 1;
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+            .process {
+                text-align: center;
+                background-image: url('../img/sites/case-bar.jpg');
+                background-repeat: no-repeat;
+                background-position: right center;
+                min-height: 60px;
+                p {
+                    font-size: 2rem;
+                    background: #000;
+                    color: $lemon-yellow;
+                    display: inline-block;
+                    line-height: 1;
+                    padding: 1px 6px;
+                    position: relative;
+                    top: -20px;
+                }
+            }
+            .after {
+                text-align: left;
+                p {
+                    font-size: 6rem;
+                    
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    line-height: 1;
+                    padding: 0;
+                    margin: 0;
+                    margin-top: -13px;
+                    color: $pink;
+                    span {
+                        text-transform: lowercase;
+                        font-size: 2.4rem;
+                        font-weight: 100;
+                    }
+                }
+            }
+        }
+    }
+    .check {
+        text-align: center;
+        margin-top: 50px;
+        p {
+            display: inline-block;
+            background: #ccc;
+            font-size: 1.57rem;
+            text-align: center;
+            line-height: 1;
+            padding: 2px 6px;
+        }
+    }
+    .link {
+        text-align: center;
+        margin-top: 30px;
+        a {
+            font-size: 3.4rem;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            color: #fff;
+            border-radius: 3px;
+            background: $cyan;
+            line-height: 1;
+            padding: 3px 15px 8px;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    #sites_06 {
+        .case {
+            width: 95%;
+            .case-image {
+                img {
+                    width: 100%;
+                    max-width: 378px;
+                }
+            }
+        }
+        .border {
+            padding: 20px;
+            .case-action {
+                p {
+                    font-size: 1.86rem;
+                    margin: 15px auto;
+                }
+            }
+            .case-bar {
+                margin-top: 10px;
+                .before {
+                    margin-bottom: 15px;
+                    p {
+                        font-size: 2.4rem;
+                        text-align: center;
+                    }
+                }
+                .after {
+                    p {
+                        font-size: 3.4rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }    
+        .check {
+            margin-top: 35px;
+            p {
+                font-size: 1.3rem;
+                width: 90%;
+            }
+        }
+        .link {
+            margin-top: 20px;
+            a {
+                font-size: 1.7rem;
+            }
+        }
+    }
+}

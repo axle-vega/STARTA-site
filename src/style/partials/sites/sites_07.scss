@@ -1,0 +1,84 @@
+#sites_07 {
+    background-image: url('../img/sites/sites-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    .row {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .title {
+        @extend %h2;
+        color: #fff;
+        span {
+            @extend %h2-span;
+            color: #fff;
+        }
+    }
+    .subtitle {
+        font-size: 2rem;
+        color: #fff;
+        text-transform: uppercase;
+        display: inline-block;
+        line-height: 1;
+        margin: 0;
+        padding: 3px 5px;
+        border: 1px solid $lemon-yellow;
+    }
+    .works {
+        margin: 20px 0;
+        .item {
+            &:hover .overlay {display: table;}
+            .overlay {
+                display: none;
+                background: rgba(0,0,0,0.8);
+                text-align: center;
+                width: 340px;
+                height: 145px;
+                top: 14px;
+                left: 50%;
+                margin-left: -170px;
+                position: absolute;
+                cursor: pointer;
+                p {
+                    display: table-cell;
+                    height: 100%;
+                    line-height: 6;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 24px;
+                    color: #fff;
+                    text-decoration: underline;
+                }
+            }
+            img {
+                border: 6px #fff solid;
+                width: 100%;
+                max-width: 379px;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    #sites_07 {
+        .row {
+            width: 100%;
+            margin: initial;
+            text-align: center;
+        }
+        .subtitle {
+            margin: 15px auto;
+        }
+        .works {
+            margin: 0;
+            .item {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

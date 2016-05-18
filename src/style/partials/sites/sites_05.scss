@@ -1,0 +1,51 @@
+#sites_05 {
+    background-image: url('../img/sites/sites_bg_4.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    min-height: 50vh;
+    padding: 60px 0;
+    .title {
+        @extend %h2;
+        span {
+            @extend %h2-span;
+        }
+    }
+    .bullets {
+        width: 100%;
+        margin-top: 30px;
+        .item {
+            height: 20rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            .text-wrap {
+                display: table;
+                width: 100%;
+                height: 100%;
+                .text {
+                    display: table-cell;
+                    vertical-align: middle;
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    p {
+                        background: #fff;
+                        font-size: 1.9rem;
+                        line-height: 1;
+                        display: inline-block;
+                        padding: 4px 10px;
+                        span {
+                            text-transform: uppercase;
+                            font-weight: 600
+                        }
+                    }
+                }
+            }
+            &:nth-child(1) {background-image: url('../img/sites/sites_05_01.png');}
+            &:nth-child(2) {background-image: url('../img/sites/sites_05_02.png');}
+            &:nth-child(3) {background-image: url('../img/sites/sites_05_03.png');}
+            
+        }
+    }
+}

@@ -1,0 +1,61 @@
+#index_03 {
+    height: 80vh;
+    background-image: url('../img/index/mount-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .container {height: 100%;.row {height: 100%}}
+    .text-wrap {
+        display: table;
+        height: 100%;
+        width: 100%;
+        background-image: url('../img/index/target-bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        .text {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            .p01 {
+                font-size: 5.71rem;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: #fff;
+                letter-spacing: 2px;
+                line-height: 1;
+            }
+            .p02 {
+                font-size: 5.71rem;
+                text-transform: uppercase;
+                color: #fff;
+                line-height: 1;
+            }
+            .p03 {
+                font-size: 3.57rem;
+                color: #fff;
+                line-height: 1.2;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    #index_03 {
+        .text-wrap {
+            .text {
+                padding: 0 10px;
+                .p01, .p02, .p03 {
+                    font-size: 2.5rem;
+                    letter-spacing: normal;
+                    line-height: 1.1;
+                    font-weight: 500;
+                    padding: 0;
+                    margin: 0;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

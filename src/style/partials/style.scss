@@ -1,0 +1,370 @@
+$black-light:           #1f1f1f !default;
+$blue:                  #1aa6f6 !default;
+$grey-light:            #B9B9B9 !default;
+$red:                   #F12D23 !default;
+$yellow:                #efc52c !default;
+$lemon-yellow:          #fff44f !default;
+$cyan:                  #1b50e1 !default;
+$pink:                  #d8303f !default;
+
+
+$default-font-size:     14px;
+$large-font-size:       18px;
+$small-font-size:       13px;
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
+
+%seo-text {font-size: 1.142rem; padding: 0; margin: 0; line-height: 1.2; display: inline;}
+%h2 {font-size: 6.43rem; color: #000; padding: 0; margin: 0; line-height: 1; font-weight: 600; text-transform: uppercase; text-align: center;}
+%h2-span {font-size: 3.143rem; color: #000; font-weight: 400; display: block; margin: 0 auto; text-align: center;}
+
+@media (max-width: 480px) {
+    %seo-text {display: none;}
+    %h2 {font-size: 2.8rem;}
+    %h2-span {font-size: 2rem;}
+}
+
+
+
+html {
+    font-size: $default-font-size;
+}
+p, h1, h2 {color: #000;}
+
+.clear, .cl {clear: both;}
+.feedback {cursor: pointer;}
+.more {display: none;}
+.readmorelink {text-decoration: underline;cursor: pointer;}
+
+
+.fixed-menu {
+    position: fixed !important;
+    background: rgba(0,0,0,0.8);
+    z-index: 1000;
+    height: auto;
+    .navbar-default {
+        margin: 0;
+        .navbar-nav {
+            a {
+                font-size: 1.4rem;
+            }
+            .phone {
+                font-size: 2.2rem;
+                margin-top: -0.35rem;
+            }
+            .dropdown-menu {
+                background: rgba(0,0,0,0.85);
+            }
+        }
+    }
+    .navi-button {
+        display: block;
+    }
+    .menu-btn {
+        font-size: 1.3rem;
+        width: 35px;
+        height: 35px;
+    }
+    .pushy {
+        .menu-btn {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    .menu-logo {
+        img {
+            width: 160px;
+            margin-top: 5px;
+        }
+    }
+    .navi-button {
+        display: none;
+        position: absolute;
+        left: 50%;
+        top: 12px;
+        padding: 2px 10px;
+        width: 170px;
+        text-align: center;
+        margin-left: -85px;
+        color: #fff;
+        font-size: 1.14rem;
+        text-transform: uppercase;
+        background: $red;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover {
+            text-decoration: none;
+            background: #FF5722;
+            color: #fff;
+        }
+    }
+    .navbar-default {
+        .navbar-nav { 
+            a {
+                font-size: 1.715rem;
+                color: #fff;
+                background-color: transparent;
+                &:hover {
+                    color: #CCCCCC !important;
+                }
+            }
+            .phone {
+                font-size: 2.57rem;
+                margin-top: -0.4rem;
+                span {
+                    font-size: 1.285rem;
+                }
+            }
+        }
+    }
+    .navbar-default {
+        background-color: transparent;
+        border: none;
+        margin-top: 18px;
+    }
+    .menu-btn {
+        display: none;
+        cursor: pointer;
+        color: #fff;
+        font-size: 1.8rem;
+        float: right;
+        width: 45px;
+        height: 45px;
+        margin: 10px;
+        text-align: center;
+        border: 1px #fff solid;
+        border-radius: 4px;
+        .glyphicon {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+    .pushy-phone {
+        display: none;
+        color: #fff;
+        font-size: 2rem;
+        padding-top: 7px;
+        padding-left: 15px;
+        span {
+            font-size: 1.3rem;
+            color: #dcdcdc;
+        }
+    }
+}
+
+@import "partials/index";
+@import "partials/sites";
+
+footer {
+    background: $black-light;
+    padding: 30px 0;
+    a, p {
+        color: #fff;
+    }
+    a:hover, a:focus {
+        color: $grey-light; 
+        text-decoration: none;
+    }
+    .footer-logo {
+        img {
+            max-width: 230px;
+        }
+        .city {
+            font-size: 24px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+    }
+    .footer-phone {
+        text-align: right;
+        font-size: 36px;
+        span {font-size: 18px;}
+        .modal_btn {
+            width: 140px;
+            display: block;
+            font-size: 18px;
+            background: $blue;
+            padding: 10px 15px;
+            border-radius: 3px;
+            margin: 0 0 0 auto;
+            text-align: center;
+            line-height: 1;
+            cursor: pointer;
+        }
+    }
+    .footer-address {
+        font-size: 24px;
+        text-align: center;
+        .foot-mail {
+            cursor: pointer;
+        }
+        p {
+            line-height: 1.2;
+            margin-bottom: 15px;
+        }
+        ul {
+            padding: 0;
+            li {
+                padding: 0 15px 0 0;
+                font-size: 16px; 
+                list-style-type: none; 
+                line-height: 1.2;
+            }
+            :nth-child(odd) {
+                text-align: right;
+                
+            }
+            :nth-child(even) {
+                text-align: left;
+                padding: 0;
+            }
+        } 
+    }
+}
+
+.modal {
+    padding: 0 !important;
+    overflow: visible !important;
+    .modal-dialog {
+        width: 400px !important;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%) !important;
+        .modal-content {
+            box-shadow: none;
+            background-color: transparent;
+            border: none;
+            .close {
+                -webkit-appearance: none;
+                padding: 0;
+                cursor: pointer;
+                border: 0;
+                position: absolute;
+                right: -40px;
+                top: -45px;
+                color: #A9A9A9;
+                opacity: 1;
+                text-shadow: none;
+                height: 44px;
+                width: 150px;
+                font-weight: 100;
+                font-size: 1.2rem;
+                background-image: url('../img/close-btn.png');
+                background-repeat: no-repeat;
+                background-position: right center;
+            }
+        }
+        .title {
+            font-size: 2.14rem;
+            color: $yellow;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: 0;
+            margin: 0 0 10px 0;
+            line-height: 1;
+        }
+        .subtitle {
+            font-size: 1.8rem;
+            color: #fff;
+            padding: 0;
+            margin: 0 0 15px 0;
+            line-height: 1;
+        }
+        form {
+            .input {
+                width: 100%;
+                display: block;
+                margin: 0 auto 17px;
+                border-radius: 4px;
+                background: #fff;
+                border: none;
+                padding: 8px 15px;
+                font-size: 1.3rem;
+            }
+            .button {
+                background: #F12D23;
+                color: #fff;
+                border: none;
+                border-radius: 3px;
+                font-size: 1.5rem;
+                text-align: center;
+                width: 135px;
+                padding: 4px 0;
+            }
+        }
+    }
+}
+
+.works-modal-site {
+    display: none;
+    overflow: auto !important;
+    overflow-y: scroll !important;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    z-index: 1050 !important;
+    -webkit-overflow-scrolling: touch;
+    outline: 0 !important;
+    .modal-dialog {
+        max-width: 1620px !important;
+        width: 80vw !important;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        margin-top: 0;
+        transform: translate(-50%,0%)!important;
+        .modal-content {
+            .close {
+                right: 0;
+                top: 0;
+            }
+        }
+        .nav-tabs {
+            border: none;
+            font-size: 1.8rem;
+            margin: 20px 0;
+            li {
+                a {
+                    color: #fff !important;
+                    text-decoration: underline;
+                    border: none;
+                    padding: 5px 15px;
+                    &:hover,&:focus {
+                        text-decoration: none;
+                        background-color: transparent;
+                        
+                    }
+                }
+            }
+            .active {
+                border: 2px solid #fff;
+                a {
+                    text-decoration: none;
+                    background: transparent;
+                    border-radius: 0;
+                    border: none;
+                }
+            }
+        }
+    }
+    .lp {
+        .modal-content {
+            .close {
+                top: 13px;
+            }
+            .work-image {
+                padding-top: 70px;
+            }
+        }
+    }
+}
+
+

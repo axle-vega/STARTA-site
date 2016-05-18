@@ -1,0 +1,114 @@
+#index_02 {
+    padding: 60px 0;
+    .left {
+        padding-right: 60px;
+        background-image: url('../img/index/arrow-1.png');
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: contain;
+        h2 {
+            font-size: 3.1rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            line-height: 1;
+            margin: 0;
+            padding: 0;
+        }
+        .p01 {
+            font-size: 15.2rem;
+            text-transform: uppercase;
+            font-weight:900;
+            line-height: 0.8;
+            margin: 0;
+            padding: 0;
+            span {
+                color: $red;
+            }
+        }
+        .p02 {
+            font-size: 5.2rem;
+            line-height: 1;
+            padding:0;
+            margin:0 0 25px 0;
+        }
+        .p03 {
+            font-size: 1.28rem;
+            line-height: 1.1;
+            
+        }
+    }
+    .right {
+        ul {
+            list-style: none;
+            li {
+                p {
+                    font-size: 2.43rem;
+                    text-transform: uppercase;
+                    line-height: 1.1;
+                    padding: 25px 0 0 210px;
+                    &:before {
+                        font-size: 7.14rem;
+                        position: absolute;
+                        left: 80px;
+                        text-align: right;
+                        font-weight: 900;
+                        width: 150px;
+                        margin: -12px 0 0 0;
+                        line-height: 1;
+                    }
+                }
+            }
+            li:nth-child(1) {p:before {content: "1";}}
+            li:nth-child(2) {p:before {content: "3";}}
+            li:nth-child(3) {p:before {content: "27";}}
+            li:nth-child(4) {p:before {content: "100";}}
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    #index_02 {
+        padding: 40px 0;
+        .left {
+            padding-right: 15px;
+            text-align: center;
+            background: none;
+            h2 {
+                font-size: 1.4rem;   
+            }
+            .p01 {
+                font-size: 7rem;
+            }
+            .p02 {
+                font-size: 2.3rem;
+            }
+        }
+        .right {
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    p {
+                        font-size: 1.45rem;
+                        padding: 10px 0 0 90px;
+                        &:before {
+                            font-size: 4rem;
+                            left: 0;
+                            width: 100px;
+                            margin: -8px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1700px) {
+//    #index_02 {
+//        .left {
+//            padding-right: 170px;
+//        }
+//    }
+}

@@ -1,0 +1,162 @@
+
+
+#index_01{
+	height: 100vh;
+	width:100%;
+	background-image: url('../img/index/smoke-bg.jpg');
+    background-size: cover;
+	animation: animatedBackground 60s linear infinite;
+	-moz-animation: animatedBackground 60s linear infinite;
+	-webkit-animation: animatedBackground 60s linear infinite;
+ 	-o-animation: animatedBackground 60s linear infinite;
+    .main_logo {
+        width: 60%;
+        height: 37vh;
+        margin: 6vh auto 0;
+        text-align: center;
+        margin-top: 5rem;
+        background-image: url('../img/index/logo.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .text {
+        height: 20vh;
+        display: table;
+        .text-wrap {
+            display: table-cell;
+            vertical-align: middle;
+            h1 {
+                color: #fff;
+                font-size: 4.5rem;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            .seo_text {
+                width: 90%;
+                margin: 0 auto;
+                p {
+                    @extend %seo-text;
+                    color: #fff;
+                }
+                h2 {
+                    @extend %seo-text;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .service_menu {
+        display: table;
+        height: 37vh;
+        width: 100%;
+        ul {
+            width: 100%;
+            display: table-cell;
+            vertical-align: middle;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                display:inline-block;
+                width: 20%;
+                float: left;
+                text-align: center;
+                padding:0;
+                margin:2rem auto;
+                a {
+                    font-size: 1.715rem;
+                    text-transform: uppercase;
+                    color: #fff;
+                    text-decoration: underline;
+
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    #index_01 {
+        height: auto;
+        padding-bottom: 30px;
+        .main_logo {
+            width: 90%;
+            height: 25vh;
+            margin: 2rem auto 0;
+        }
+        .text {
+            .text-wrap {
+                h1 {
+                    font-size: 2.8rem;
+                    padding: 0 20px;
+                }
+                .seo_text {
+                    display: none;
+                }
+            }
+        }
+        .service_menu {
+            ul {
+                li{
+                    width: 100%;
+                    margin: 0 auto;
+                    padding: 2px;
+                    a {
+                        font-size: 1.225rem;
+                        text-transform: uppercase;
+                        color: #fff;
+                        display: block;
+                        width: 95%;
+                        margin: 0 auto;
+                        padding: 9px 0;
+                        text-decoration: none;
+                        background: $red;
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+@keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -2200px 0px /* анимируем свойство background-position */
+    }
+}
+@-moz-keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -2200px 0px
+    }
+}
+@-webkit-keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -2200px 0px
+    }
+}
+@-o-keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -2200px 0px
+    }
+}

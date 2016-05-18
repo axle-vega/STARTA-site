@@ -1,0 +1,122 @@
+@media (max-width: 480px) {
+    
+    
+    
+    footer {
+        div {
+            text-align: center !important;
+        }
+        .footer-phone {
+            .modal_btn {
+                margin: 0 auto !important;
+            }
+        }
+        a, p {
+            line-height: 1;
+        }
+        li {
+            font-size: 16px;
+            text-align: center !important;
+        }
+        .footer-address {
+            p {
+                margin-top: 15px;
+            }
+        }
+        .footer-logo {
+            .city {
+                display: none;
+            }
+        }
+    }
+    .modal {
+        .modal-dialog {
+            width: 90%!important;
+            margin: 0;
+            .title {
+                line-height: 1;
+            }
+            .subtitle {
+                line-height: 1;
+            }
+            .modal-content {
+                .close {
+                    right: 0px;
+                    top: -60px;
+                }
+            }
+        }
+    }
+    
+    .works-modal-site {
+        .modal-dialog {
+            .modal-content {
+                .close {
+                    right: 0;
+                    top: 0;
+                    text-indent: 999999px;
+                    height: 31px;
+                    width: 31px;
+                    overflow: hidden;
+                    background-size: contain;
+                }
+            }
+            .nav-tabs {
+                font-size: 1.1rem;
+                margin: 13px 0;
+                li {
+                    a{
+                        padding: 4px 8px;
+                    }
+                }
+            }
+        }
+        .lp {
+            .modal-content {
+                .close {
+                    top: 5px;
+                }
+                .work-image {
+                    padding-top: 40px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 768px) {
+    header {
+        .navbar-default {
+            display: none;
+        }
+        .menu-btn {
+            display: table;
+        }
+    }
+    .fixed-menu {
+        #menu-container {
+            .pushy-phone {
+                display: inline-block;
+            }
+        }
+    }
+    footer {
+        .footer-logo {
+            img {
+                width: 180px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1700px) {
+    html {
+        font-size: $large-font-size;
+    }
+}
+@media (min-width: 1300px) {
+    html {
+        font-size: $small-font-size;
+    }
+}
