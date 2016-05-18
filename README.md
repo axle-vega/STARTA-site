@@ -1,3 +1,1 @@
-# STARTA-site
-STARTA.RU
-Сайт компании STARTA
+# Сайт STARTA
