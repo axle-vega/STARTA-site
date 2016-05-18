@@ -1,2 +1,3 @@
 # STARTA-site
-STARTA repo
+STARTA.RU
+Сайт компании STARTA
