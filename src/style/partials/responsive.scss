@@ -112,7 +112,7 @@
 
 @media (min-width: 1700px) {
     html {
-        font-size: $large-font-size;
+        font-size: $large-font-size !important;
     }
 }
 @media (min-width: 1300px) {

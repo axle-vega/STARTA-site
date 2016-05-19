@@ -177,3 +177,181 @@
         }
     }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #index_05 {
+        height: auto;
+        .bg {
+            width: 100%;
+            height: 30vh;
+            &:after {
+                display: none;
+            }
+        }
+        .left {
+            height: 30vh;
+            .text-wrap {
+                width: 100%;
+                .text {
+                    .wrap {
+                        &:after {
+                            display: none;
+                        }
+                        .p01 {
+                            font-size: 3rem;
+                            text-align: center;
+                        }
+                        .p02 {
+                            font-size: 6.3rem;
+                            text-align: center;
+                        }
+                        .p03 {
+                            font-size: 2rem;
+                            text-align: center;
+                            .question {
+                                display: inline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right {
+            .text-wrap {
+                width: 60%;
+                margin: 0 auto;
+                text-align: center;
+                .text {
+                    padding: 0;
+                    p {
+                        font-size: 1.7rem;
+                        text-align: center;
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                        br {
+                            display: none;
+                        }
+                    }
+                    .input {
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .button {
+                        margin-top: 10px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    #index_05 {
+        height: auto;
+        .bg {
+            width: 100%;
+            height: 30vh;
+            &:after {
+                display: none;
+            }
+        }
+        .left {
+            height: 30vh;
+            .text-wrap {
+                width: 100%;
+                .text {
+                    .wrap {
+                        &:after {
+                            display: none;
+                        }
+                        .p01 {
+                            font-size: 4rem;
+                            text-align: center;
+                        }
+                        .p02 {
+                            font-size: 8.3rem;
+                            text-align: center;
+                        }
+                        .p03 {
+                            font-size: 2.8rem;
+                            text-align: center;
+                            .question {
+                                display: inline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right {
+            .text-wrap {
+                width: 60%;
+                margin: 0 auto;
+                text-align: center;
+                .text {
+                    padding: 0;
+                    p {
+                        font-size: 1.7rem;
+                        text-align: center;
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                        br {
+                            display: none;
+                        }
+                    }
+                    .input {
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .button {
+                        margin-top: 10px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    #index_05 {
+        .left {
+            .text-wrap {
+                .text {
+                    .wrap {
+                        .p01 {
+                            font-size: 2.5rem;
+                        }
+                        .p02 {
+                            font-size: 5.3rem;
+                        }
+                        .p03 {
+                            font-size: 1.7rem;
+                        }
+                        &:after {
+                            font-size: 14rem;
+                            margin-right: -5rem;
+                            margin-top: -11.8rem;
+                        }
+                    }
+                }
+            }
+        }
+        .right {
+            .text-wrap {
+                p {
+                    font-size: 2rem;
+                    br {
+                        display: none;
+                    }
+                }
+                .text {
+                    .button {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}

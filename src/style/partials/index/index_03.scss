@@ -59,3 +59,19 @@
         }
     }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #index_03 {
+        .text-wrap {
+            .text {
+                .p01, .p02 {
+                    font-size: 4rem;
+                    padding: 0 15px;
+                }
+                .p03 {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}

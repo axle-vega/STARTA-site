@@ -23,6 +23,10 @@ $menu_width: 230px;
         margin-top: -50px;
         border: none;
     }
+    .menu-list {
+        z-index: 100;
+        position: relative;
+    }
     
     a{
         display: block;
@@ -213,10 +217,18 @@ $menu_width: 230px;
     }
 }
 
+.pushy-open-right {
+    .pushy {
+        -webkit-box-shadow: -2px 0 18px 4px #F12D23;
+        box-shadow: -2px 0 60px 4px #F12D23;
+    }
+}
+
 .pushy-contacts {
     position: absolute;
     bottom: 15px;
     width: 100%;
+    z-index: 10;
     .phone {
         a {
             background: transparent;

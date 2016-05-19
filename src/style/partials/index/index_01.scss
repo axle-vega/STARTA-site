@@ -63,7 +63,8 @@
                 float: left;
                 text-align: center;
                 padding:0;
-                margin:2rem auto;
+                // margin:2rem auto;
+                margin: -10rem auto 2rem auto;
                 a {
                     font-size: 1.715rem;
                     text-transform: uppercase;
@@ -126,6 +127,94 @@
 
 
 
+@media (min-width: 481px) and (max-width: 767px) {
+    #index_01 {
+        .text {
+            .text-wrap {
+                h1 {
+                    font-size: 3rem;
+                    padding: 0 10px;
+                }
+                .seo_text {
+                    display:none;
+                }
+            }
+        }
+        .service_menu {
+            ul {
+                li {
+                    width: 50%;
+                    margin: 0;
+                    &:nth-last-child(2) {
+                        width: 100%;
+                    }
+                    .effect {
+                        background: $red;
+                        margin: 3px;
+                        svg {display: none;}
+                        h3 {
+                            padding: 7px 0 10px 0;
+                            line-height: 1;
+                            a {
+                                font-size: 1.1rem;
+                                font-weight: 600;
+                                letter-spacing: 0.03rem;
+                                text-transform: uppercase;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    #index_01 {
+        .service_menu {
+            ul {
+                li {
+                    width: 50%;
+                    margin: 0;
+                    &:nth-last-child(2) {
+                        width: 100%;
+                    }
+                    .effect {
+                        background: $red;
+                        margin: 3px;
+                        svg {display: none;}
+                        h3 {
+                            padding: 10px 0;
+                            line-height: 1;
+                            margin: 0;
+                            a {
+                                font-size: 2.1rem;
+                                font-weight: 600;
+                                letter-spacing: 0.03rem;
+                                text-transform: uppercase;
+                                text-decoration: none;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    #index_01 {
+        .service_menu {
+            ul {
+                li {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
 
 
 
