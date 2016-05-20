@@ -1995,6 +1995,23 @@ footer .footer-logo img{width:180px}
 .effect #svg_ef_4 #svg_ef_4_all #svg_ef_4_04{opacity:.7}
 .effect #svg_ef_4 #svg_ef_4_all #svg_ef_4_05,.effect #svg_ef_4 #svg_ef_4_all #svg_ef_4_06,.effect #svg_ef_4 #svg_ef_4_all #svg_ef_4_07{opacity:1}
 .effect #svg_ef_4 #svg_ef_4_all #svg_ef_4_08{opacity:.8}
+.effect #svg_ef_5 #svg_ef_5_all line{stroke-linecap:round;stroke-width:2.4;stroke:#00bff3;fill:none}
+.effect #svg_ef_5 #svg_ef_5_all path{stroke:#00bff3;fill:none;fill-rule:evenodd;stroke-width:2.4;stroke-miterlimit:4}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_01{stroke-opacity:1}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_02{stroke-opacity:.3}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_03{stroke-opacity:.8}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_04{stroke-opacity:.6}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_05{stroke-opacity:1}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_06{stroke-opacity:.5}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_07{stroke-opacity:.7}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_08,.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_09{stroke-opacity:1}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_10{stroke-opacity:.7}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_11{stroke-opacity:.4}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_12{stroke-opacity:1}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_13{stroke-opacity:.5}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_14{stroke-opacity:1}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_15{stroke-opacity:.6}
+.effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_16{stroke-opacity:1}
 @media (max-width:480px){.effect{height:auto}
 .effect svg{display:none}
 .effect h3{position:inherit;margin:0 auto}
