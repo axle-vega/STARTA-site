@@ -1,4 +1,5 @@
 .effect {
+    height: 100%;
     svg {
         position: relative;
         opacity: 0;
@@ -14,8 +15,56 @@
     }
     h3 {
         position: relative;
-        margin-top: -19.5vh;
+        margin-top: -60%;
         margin-bottom: 0;
+    }
+    #svg_ef_1 {
+        #svg_ef_1_all {
+            rect {
+                fill: #e2ad23;
+                stroke-width: 0;
+                stroke-miterlimit: 4;
+            }
+            path {
+                opacity: 0;
+                stroke: #000;
+                fill-opacity: null;
+                stroke-opacity: null;
+                stroke-width: null;
+                fill: none;
+            }
+            #svg_ef_1_01 {fill-opacity: 0.5;}
+            #svg_ef_1_02 {fill-opacity: 1;}
+            #svg_ef_1_03 {fill-opacity: 0.7;}
+            #svg_ef_1_04 {fill-opacity: 1;}
+            #svg_ef_1_05 {fill-opacity: 0.3;}
+            #svg_ef_1_06 {fill-opacity: 0.4;}
+            #svg_ef_1_07 {fill-opacity: 0.6;}
+            #svg_ef_1_08 {fill-opacity: 1;}
+            #svg_ef_1_09 {fill-opacity: 1;}
+            #svg_ef_1_10 {fill-opacity: 0.5;}
+            #svg_ef_1_11 {fill-opacity: 1;}
+        }
+    }
+    #svg_ef_2 {
+        #svg_ef_2_all {
+            rect {
+                fill: #b262b7;
+                stroke-width: 0;
+                stroke-miterlimit: 4;
+            }
+            path {
+                opacity: 0;
+            }
+            #svg_ef_2_01 {fill-opacity: 1;}
+            #svg_ef_2_02 {fill-opacity: 1;}
+            #svg_ef_2_03 {fill-opacity: 0.7;}
+            #svg_ef_2_04 {fill-opacity: 0.7;}
+            #svg_ef_2_05 {fill-opacity: 1;}
+            #svg_ef_2_06 {fill-opacity: 1;}
+            #svg_ef_2_07 {fill-opacity: 0.7;}
+            #svg_ef_2_08 {fill-opacity: 1;}
+        }
     }
     #svg_ef_4 {
         #svg_ef_4_all {
@@ -38,6 +87,7 @@
 
 @media (max-width: 480px) {
     .effect {
+        height: auto;
         svg {display: none;}
         h3 {
             position: inherit;
@@ -48,6 +98,7 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
     .effect {
+        height: auto;
         svg {display: none;}
         h3 {
             position: inherit;
