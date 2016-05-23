@@ -2009,6 +2009,7 @@ footer .footer-logo img{width:180px}
 .effect{height:100%}
 .effect svg{position:relative;opacity:0}
 .effect:hover svg{opacity:1;-webkit-transition:opacity .5s cubic-bezier(.42,0,.58,1) 10ms;transition:opacity .5s cubic-bezier(.42,0,.58,1) 10ms}
+.effect #svg_ef_2 #svg_ef_2_all path,.effect #svg_ef_3 #svg_ef_3_all path{opacity:0}
 .effect h3{position:relative;margin-top:-60%;margin-bottom:0}
 .effect #svg_ef_1 #svg_ef_1_all rect{fill:#e2ad23;stroke-width:0;stroke-miterlimit:4}
 .effect #svg_ef_1 #svg_ef_1_all path{opacity:0;stroke:#000;fill-opacity:null;stroke-opacity:null;stroke-width:null;fill:none}
@@ -2023,12 +2024,18 @@ footer .footer-logo img{width:180px}
 .effect #svg_ef_1 #svg_ef_1_all #svg_ef_1_10{fill-opacity:.5}
 .effect #svg_ef_1 #svg_ef_1_all #svg_ef_1_11{fill-opacity:1}
 .effect #svg_ef_2 #svg_ef_2_all rect{fill:#b262b7;stroke-width:0;stroke-miterlimit:4}
-.effect #svg_ef_2 #svg_ef_2_all path{opacity:0}
 .effect #svg_ef_2 #svg_ef_2_all #svg_ef_2_01,.effect #svg_ef_2 #svg_ef_2_all #svg_ef_2_02{fill-opacity:1}
 .effect #svg_ef_2 #svg_ef_2_all #svg_ef_2_03,.effect #svg_ef_2 #svg_ef_2_all #svg_ef_2_04{fill-opacity:.7}
 .effect #svg_ef_2 #svg_ef_2_all #svg_ef_2_05,.effect #svg_ef_2 #svg_ef_2_all #svg_ef_2_06{fill-opacity:1}
 .effect #svg_ef_2 #svg_ef_2_all #svg_ef_2_07{fill-opacity:.7}
 .effect #svg_ef_2 #svg_ef_2_all #svg_ef_2_08{fill-opacity:1}
+.effect #svg_ef_3 #svg_ef_3_all circle{stroke:null;fill:#5fc18f}
+.effect #svg_ef_3 #svg_ef_3_all #svg_ef_3_01,.effect #svg_ef_3 #svg_ef_3_all #svg_ef_3_02{stroke:#5fc18f;fill:none;opacity:1}
+.effect #svg_ef_3 #svg_ef_3_all #svg_ef_3_03,.effect #svg_ef_3 #svg_ef_3_all #svg_ef_3_04{opacity:1}
+.effect #svg_ef_3 #svg_ef_3_all #svg_ef_3_05{opacity:.7}
+.effect #svg_ef_3 #svg_ef_3_all #svg_ef_3_06{opacity:.4}
+.effect #svg_ef_3 #svg_ef_3_all #svg_ef_3_07{opacity:.8}
+.effect #svg_ef_3 #svg_ef_3_all #svg_ef_3_08{opacity:.3}
 .effect #svg_ef_4 #svg_ef_4_all path{fill:#fff200;stroke:#000;stroke-width:0}
 .effect #svg_ef_4 #svg_ef_4_all #svg_ef_4_01{opacity:.6}
 .effect #svg_ef_4 #svg_ef_4_all #svg_ef_4_02,.effect #svg_ef_4 #svg_ef_4_all #svg_ef_4_03{opacity:.3}
