@@ -1471,10 +1471,10 @@ td.visible-print,th.visible-print{display:table-cell!important}
 @media print{.visible-print-inline-block{display:inline-block!important}
 .hidden-print{display:none!important}
 }
-#index_01 .text .text-wrap .seo_text h2,#index_01 .text .text-wrap .seo_text p,#sites_01 .title .text-wrap .text .seo-text,#sites_02 .seo-text{font-size:1.142rem;padding:0;margin:0;line-height:1.2;display:inline}
+#index_01 .text .text-wrap .seo_text h2,#index_01 .text .text-wrap .seo_text p,#seo_01 .seo .seo-text,#sites_01 .title .text-wrap .text .seo-text,#sites_02 .seo-text{font-size:1.142rem;padding:0;margin:0;line-height:1.2;display:inline}
 #sites_02 h2,#sites_03 h2,#sites_05 .title,#sites_06 .title,#sites_07 .title,#sites_08 .title{font-size:6.43rem;color:#000;padding:0;margin:0;line-height:1;font-weight:600;text-transform:uppercase;text-align:center}
 #sites_02 h2 span,#sites_05 .title span,#sites_06 .title span,#sites_07 .title span,#sites_08 .title span{font-size:3.143rem;color:#000;font-weight:400;display:block;margin:0 auto;text-align:center}
-@media (max-width:480px){#index_01 .text .text-wrap .seo_text h2,#index_01 .text .text-wrap .seo_text p,#sites_01 .title .text-wrap .text .seo-text,#sites_02 .seo-text{display:none}
+@media (max-width:480px){#index_01 .text .text-wrap .seo_text h2,#index_01 .text .text-wrap .seo_text p,#seo_01 .seo .seo-text,#sites_01 .title .text-wrap .text .seo-text,#sites_02 .seo-text{display:none}
 #sites_02 h2,#sites_03 h2,#sites_05 .title,#sites_06 .title,#sites_07 .title,#sites_08 .title{font-size:2.8rem}
 #sites_02 h2 span,#sites_05 .title span,#sites_06 .title span,#sites_07 .title span,#sites_08 .title span{font-size:2rem}
 }
@@ -1813,7 +1813,7 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 }
 #sites_08{background-image:url(../img/sites/sites-07-bg.jpg);background-repeat:no-repeat;background-size:cover;background-position:center bottom;padding:40px 0}
 #sites_08 .steps{width:100%;height:80px;background-image:url(../img/sites/steps/dashed-2.png);background-position:center;background-repeat:repeat-x;display:block;margin:150px auto;padding-top:27px}
-#sites_08 .steps .step-1,#sites_08 .steps .step-8{text-align:center;font-weight:600;display:inline-block;padding:2px;text-transform:uppercase}
+#sites_08 .steps .step-1,#sites_08 .steps .step-8{font-weight:600;display:inline-block;padding:2px;text-align:center;text-transform:uppercase}
 #sites_08 .steps .step-1{background:#fff;font-size:18px}
 #sites_08 .steps .step .icon{width:73px;height:73px;margin:-22px auto 0;background-repeat:no-repeat;background-position:center;position:relative;z-index:1}
 #sites_08 .steps .step-2 .icon{background-image:url(../img/sites/steps/step-2.png)}
@@ -1860,6 +1860,46 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #sites_09 .right form .input{font-size:1.5rem;padding:5px 15px;margin:6px 0}
 #sites_09 .right form .button{font-size:2rem;padding:2px 15px}
 }
+#seo_01{min-height:100vh;background-image:url(../img/seo/seo-01.jpg);background-position:center;background-size:cover;background-repeat:no-repeat}
+#seo_01 .bottom-arrow,#seo_01 .text-wrap .text .subtitle:after,#seo_02 .right{background-repeat:no-repeat;background-size:contain}
+#seo_01 .text-wrap{display:table;height:80vh;width:100%}
+#seo_01 .text-wrap .text{display:table-cell;vertical-align:middle;text-align:center}
+#seo_01 .text-wrap .text h1{font-size:35.7rem;color:#fff;font-weight:700;line-height:1}
+#seo_01 .text-wrap .text h1 span{display:block;font-size:3.42rem;font-weight:400;text-transform:uppercase;line-height:1;margin:0;padding:0}
+#seo_01 .text-wrap .text .subtitle{color:#fff;font-size:3.42rem;font-weight:700;padding-right:75px;margin-top:2.5rem}
+#seo_01 .text-wrap .text .subtitle span{border-top:2px solid #fff44f;border-bottom:2px solid #fff44f;padding-bottom:.5rem}
+#seo_01 .text-wrap .text .subtitle:after{content:"";width:151px;height:121px;background-image:url(../img/seo/coffee_cup.png);background-position:center;position:absolute;margin-top:-25px;margin-left:10px}
+#seo_01 .seo{width:80%;height:20vh;margin:0 auto;text-align:center;padding-top:2rem;position:relative;z-index:100}
+#seo_01 .seo .seo-text{color:#fff}
+#seo_01 .bottom-arrow{width:248px;height:135px;background-image:url(../img/seo/seo-arrow-bottom.png);background-position:center;position:absolute;bottom:10px;left:50%;margin-left:-124px}
+@media (max-width:480px){#seo_01 .text-wrap .text h1{font-size:15rem}
+#seo_01 .text-wrap .text h1 span{font-size:3rem}
+#seo_01 .text-wrap .text .subtitle{font-size:1.5rem;padding:0 15px;margin-top:2rem}
+#seo_01 .text-wrap .text .subtitle span{border:none;padding:0}
+#seo_01 .seo,#seo_01 .text-wrap .text .subtitle:after{display:none}
+}
+@media (min-width:481px) and (max-width:767px){#seo_01 .text-wrap .text h1{font-size:16rem}
+#seo_01 .text-wrap .text h1 span{font-size:2rem}
+#seo_01 .text-wrap .text .subtitle{font-size:1.5rem;padding:0;margin-top:1.5rem}
+#seo_01 .text-wrap .text .subtitle span{padding:0;border:none}
+#seo_01 .seo,#seo_01 .text-wrap .text .subtitle:after{display:none}
+}
+@media (min-width:768px) and (max-width:990px){#seo_01 .text-wrap .text h1{font-size:20rem}
+#seo_01 .text-wrap .text h1 span{font-size:2rem}
+#seo_01 .text-wrap .text .subtitle{font-size:2rem;padding:0}
+#seo_01 .text-wrap .text .subtitle:after{display:none}
+}
+@media (min-width:991px) and (max-width:1199px){#seo_01 .text-wrap .text h1{font-size:20rem}
+#seo_01 .text-wrap .text .subtitle,#seo_01 .text-wrap .text h1 span{font-size:2rem}
+}
+#seo_02{padding:5.71rem 0}
+#seo_02 .left .subtitle{font-size:3.28rem;text-transform:uppercase;margin:0}
+#seo_02 .left .title{font-size:7.35rem;font-weight:600;text-transform:uppercase;line-height:1}
+#seo_02 .left .seo,#seo_02 .left .seo h2{font-size:1.14rem;margin:0}
+#seo_02 .left .seo h2{padding:0;display:inline-block;font-weight:700}
+#seo_02 .left .seo ul{padding:0;margin:0;line-height:1}
+#seo_02 .left .seo ul li{list-style:none;margin:.5rem 0;text-indent:-7px;padding-left:7px}
+#seo_02 .right{background-image:url(../img/seo/seo-02.jpg);background-position:left center}
 footer{background:#1f1f1f;padding:30px 0}
 footer a,footer p{color:#fff}
 footer a:focus,footer a:hover{color:#B9B9B9;text-decoration:none}

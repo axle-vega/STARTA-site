@@ -1,0 +1,62 @@
+#seo_02 {
+    padding: 5.71rem 0;
+    .left {
+        .subtitle {
+            font-size: 3.28rem;
+            text-transform: uppercase;
+            margin:0;
+        }
+        .title {
+            font-size: 7.35rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            line-height: 1;
+        }
+        .seo {
+            font-size: 1.14rem;
+            margin: 0;
+            h2 {
+                font-size: 1.14rem;
+                padding: 0;
+                margin: 0;
+                display: inline-block;
+                font-weight: bold;
+            }
+            ul {
+                padding: 0;
+                margin: 0;
+                line-height: 1;
+                li {
+                    list-style: none;
+                    margin: 0.5rem 0;
+                    text-indent: -7px;
+                    padding-left: 7px;
+                }
+            }
+        }
+    }
+    .right {
+        background-image:url('../img/seo/seo-02.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+
+    }
+}
+
+
+@media (max-width: 480px) {
+    
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    
+}
