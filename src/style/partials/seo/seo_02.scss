@@ -36,17 +36,102 @@
         }
     }
     .right {
-        background-image:url('../img/seo/seo-02.jpg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: left center;
-
+        .romb {
+            position: relative;
+            left: -4rem;
+            .item {
+                width: 50%;
+                display: block;
+                float: left;
+                min-height: 18.57rem;
+                position: relative;
+                padding: 0 4rem;
+                .text-wrap {
+                    display: table;
+                    height: 100%;
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 1rem;
+                    .text {
+                        display: table-cell;
+                        vertical-align: middle;
+                        width: 100%;
+                        p {
+                            font-size: 1.71rem;
+                            line-height: 1;
+                        }
+                        img {
+                            
+                        }
+                    }
+                }
+                .rect {
+                    position: absolute;
+                    width: 18.57rem;
+                    height: 18.57rem;
+                    border: 6px solid #000;
+                    transform: rotateZ(45deg);
+                    z-index: 10;
+                    left: 50%;
+                    margin-left: -9.28rem;
+                }
+            }
+            .r02 {
+                margin-left: -4rem;
+            }
+            .r03 {
+                margin-top: -4rem;
+                left: 12rem;
+            }
+            .r04 {
+                left: 8rem;
+                margin-top: -4rem;
+                .text-wrap {
+                    margin-top: 3rem;
+                }
+            }
+        }
     }
 }
 
 
 @media (max-width: 480px) {
-    
+    #seo_02 {
+        .left {
+            .subtitle {
+                font-size: 2.28rem;
+            }
+            .title {
+                font-size: 3.35rem;
+            }
+        }
+        .right {
+            margin-top: 4rem;
+            .romb {
+                left: 0;
+                .item {
+                    width: 100%;
+                    min-height: 19rem;
+                    padding: 0 3rem;
+                    margin: 0;
+                    left: 0;
+                    top: 0;
+                    .rect {
+                        width: 15.57rem;
+                        height: 15.57rem;
+                        margin-left: -8.28rem;
+                    }
+                    .text-wrap {
+                        .text {
+                            p {
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
