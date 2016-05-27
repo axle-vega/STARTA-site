@@ -2024,7 +2024,7 @@ footer .footer-logo img{width:180px}
 .pushy-contacts .socials ul li .fb{background-image:url(../img/svg/facebook-circular-logo.svg)}
 .pushy-contacts .socials ul li .inst{background-image:url(../img/svg/instagram-logo.svg)}
 .pushy-contacts .socials ul li .ok{background-image:url(../img/svg/odnoklassniki-logo.svg)}
-.effect{height:100%}
+.effect{height:37vh}
 .effect svg{position:relative;opacity:0}
 .effect:hover svg{opacity:1;-webkit-transition:opacity .5s cubic-bezier(.42,0,.58,1) 10ms;transition:opacity .5s cubic-bezier(.42,0,.58,1) 10ms}
 .effect #svg_ef_2 #svg_ef_2_all path,.effect #svg_ef_3 #svg_ef_3_all path{opacity:0}
