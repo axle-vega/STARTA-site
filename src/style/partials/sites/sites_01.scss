@@ -5,6 +5,12 @@
     background-size: cover;
     background-position: center;
     .container, .row {height: 100%;}
+    .container {
+        background-image: url('../img/svg/effects/ef-sites-triangles.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     .left {
         height: 100vh;
         width: 20%;
@@ -30,6 +36,11 @@
             height: 100%;
             width: 100%;
         }
+    }
+    .triangles {
+        height: 100vh;
+        width: 100%;
+        margin-top: -100vh;
     }
     .title {
         height: 80vh;

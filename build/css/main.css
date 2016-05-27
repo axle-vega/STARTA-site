@@ -1631,8 +1631,7 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #index_05 .right .text-wrap .text p{font-size:2.285rem;line-height:1;margin-bottom:30px}
 #index_05 .right .text-wrap .text .input{height:40px;padding:10px;font-size:1.3rem;border-radius:3px;border:1px solid #ababab;width:67%}
 #index_05 .right .text-wrap .text .button{color:#fff;border:none;font-size:1.7rem;padding:8px 14px 10px;float:right;width:32%;line-height:1;border-radius:4px;background:#18a3f2;background:-webkit-linear-gradient(top,#18a3f2 0,#0f8ed7 100%);background:linear-gradient(to bottom,#18a3f2 0,#0f8ed7 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#18a3f2', endColorstr='#0f8ed7', GradientType=0)}
-#sites_01,#sites_01 .left .fix,#sites_01 .right .fix{background-repeat:no-repeat}
-#sites_01,#sites_02{background-size:cover}
+#sites_01,#sites_01 .container,#sites_01 .left .fix,#sites_01 .right .fix{background-repeat:no-repeat}
 @media (max-width:480px){#index_05 .bg:after,#index_05 .left .text-wrap .text .wrap:after{display:none}
 #index_05{height:auto}
 #index_05 .bg{width:100%;height:40vh}
@@ -1687,13 +1686,15 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #index_05 .right .text-wrap p br{display:none}
 #index_05 .right .text-wrap .text .button{font-size:1.4rem}
 }
-#sites_01{height:100vh;background-image:url(../img/sites/sites-01.jpg);background-position:center}
+#sites_01{height:100vh;background-image:url(../img/sites/sites-01.jpg);background-size:cover;background-position:center}
 #sites_01 .container,#sites_01 .row{height:100%}
+#sites_01 .container{background-image:url(../img/svg/effects/ef-sites-triangles.svg);background-position:center;background-size:contain}
 #sites_01 .left{height:100vh;width:20%;float:left;margin-top:-100vh}
 #sites_01 .left .fix{background-image:url(../img/sites/sites-fixator-01.png);background-position:right center;height:100%;width:100%}
 #sites_01 .right{height:100vh;width:20%;float:right;margin-top:-100vh}
 #sites_01 .right .fix{background-image:url(../img/sites/sites-fixator-02.png);background-position:left center;height:100%;width:100%}
 #sites_02,#sites_03{background-position:center;background-repeat:no-repeat}
+#sites_01 .triangles{height:100vh;width:100%;margin-top:-100vh}
 #sites_01 .title{height:80vh}
 #sites_01 .title .text-wrap{display:table;width:100%;height:90vh;text-align:center}
 #sites_01 .title .text-wrap .text{display:table-cell;vertical-align:middle}
@@ -1711,7 +1712,7 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #sites_01 .title .text-wrap .text h1 .sp01,#sites_01 .title .text-wrap .text h1 .sp03{font-size:2.5rem}
 #sites_01 .title .text-wrap .text h1 .sp02{font-size:3.5rem}
 }
-#sites_02{background-image:url(../img/sites/sites-02.jpg);padding-bottom:60px}
+#sites_02{background-image:url(../img/sites/sites-02.jpg);background-size:cover;padding-bottom:60px}
 #sites_02 .container{box-shadow:0 5px 25px 1px rgba(219,219,219,.91);padding:60px 0}
 #sites_02 .seo-text{width:70%;display:block;margin:1.5rem auto}
 #sites_02 .bullets .bullet img{width:70%;display:block;margin:0 auto}
@@ -1921,16 +1922,16 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 footer{background:#1f1f1f;padding:30px 0}
 footer a,footer p{color:#fff}
 footer a:focus,footer a:hover{color:#B9B9B9;text-decoration:none}
-footer .footer-logo img{max-width:230px}
-footer .footer-logo .city{font-size:24px;padding-left:10px;padding-top:10px}
-footer .footer-phone{text-align:right;font-size:36px}
-footer .footer-phone span{font-size:18px}
-footer .footer-phone .modal_btn{width:140px;display:block;font-size:18px;background:#1aa6f6;padding:10px 15px;border-radius:3px;margin:0 0 0 auto;text-align:center;line-height:1;cursor:pointer}
-footer .footer-address{font-size:24px;text-align:center}
+footer .footer-logo img{max-width:16.42rem}
+footer .footer-logo .city{font-size:1.71rem;padding-left:.71rem;padding-top:.71rem}
+footer .footer-phone{text-align:right;font-size:2.57rem}
+footer .footer-phone span{font-size:1.71rem}
+footer .footer-phone .modal_btn{width:160px;display:block;font-size:1.28rem;background:#1aa6f6;padding:10px 15px;border-radius:3px;margin:0 0 0 auto;text-align:center;line-height:1;cursor:pointer}
+footer .footer-address{font-size:1.71rem;text-align:center}
 footer .footer-address .foot-mail{cursor:pointer}
 footer .footer-address p{line-height:1.2;margin-bottom:15px}
 footer .footer-address ul{padding:0}
-footer .footer-address ul li{padding:0 15px 0 0;font-size:16px;list-style-type:none;line-height:1.2}
+footer .footer-address ul li{padding:0 15px 0 0;font-size:1.14rem;list-style-type:none;line-height:1.2}
 footer .footer-address ul :nth-child(odd){text-align:right}
 footer .footer-address ul :nth-child(even){text-align:left;padding:0}
 .modal{padding:0!important;overflow:visible!important}
@@ -1954,7 +1955,7 @@ footer .footer-address ul :nth-child(even){text-align:left;padding:0}
 @media (max-width:480px){footer div,footer li{text-align:center!important}
 .modal .modal-dialog .subtitle,.modal .modal-dialog .title,footer a,footer p{line-height:1}
 footer .footer-phone .modal_btn{margin:0 auto!important}
-footer li{font-size:16px}
+footer li{font-size:1.14rem}
 footer .footer-address p{margin-top:15px}
 footer .footer-logo .city{display:none}
 .modal .modal-dialog{width:90%!important;margin:0}
@@ -1964,6 +1965,12 @@ footer .footer-logo .city{display:none}
 .works-modal-site .modal-dialog .nav-tabs li a{padding:4px 8px}
 .works-modal-site .lp .modal-content .close{top:5px}
 .works-modal-site .lp .modal-content .work-image{padding-top:40px}
+}
+@media (min-width:481px) and (max-width:767px){footer div,footer li{text-align:center!important}
+footer .footer-phone .modal_btn{margin:0 auto!important}
+footer a,footer p{line-height:1}
+footer .footer-address p{margin-top:15px}
+footer .footer-logo .city{display:none}
 }
 @media (max-width:768px){header .navbar-default{display:none}
 header .menu-btn{display:table}
@@ -2077,6 +2084,7 @@ footer .footer-logo img{width:180px}
 .effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_14{stroke-opacity:1}
 .effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_15{stroke-opacity:.6}
 .effect #svg_ef_5 #svg_ef_5_all #svg_ef_5_16{stroke-opacity:1}
+#svg_ef_site_01_all path{stroke:red}
 @media (max-width:480px){.effect{height:auto}
 .effect svg{display:none}
 .effect h3{position:inherit;margin:0 auto}

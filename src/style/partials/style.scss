@@ -174,22 +174,22 @@ footer {
     }
     .footer-logo {
         img {
-            max-width: 230px;
+            max-width: 16.42rem;
         }
         .city {
-            font-size: 24px;
-            padding-left: 10px;
-            padding-top: 10px;
+            font-size: 1.71rem;
+            padding-left: 0.71rem;
+            padding-top: 0.71rem;
         }
     }
     .footer-phone {
         text-align: right;
-        font-size: 36px;
-        span {font-size: 18px;}
+        font-size: 2.57rem;
+        span {font-size: 1.71rem;}
         .modal_btn {
-            width: 140px;
+            width: 160px;
             display: block;
-            font-size: 18px;
+            font-size: 1.28rem;
             background: $blue;
             padding: 10px 15px;
             border-radius: 3px;
@@ -200,7 +200,7 @@ footer {
         }
     }
     .footer-address {
-        font-size: 24px;
+        font-size: 1.71rem;
         text-align: center;
         .foot-mail {
             cursor: pointer;
@@ -213,7 +213,7 @@ footer {
             padding: 0;
             li {
                 padding: 0 15px 0 0;
-                font-size: 16px; 
+                font-size: 1.14rem; 
                 list-style-type: none; 
                 line-height: 1.2;
             }
