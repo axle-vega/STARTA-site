@@ -79,6 +79,8 @@ header {
     height: 60px;
     z-index: 15;
     .menu-logo {
+        .wh {display: block;}
+        .bl {display: none;}
         img {
             width: 160px;
             margin-top: 5px;
@@ -158,10 +160,34 @@ header {
         }
     }
 }
+.white-head {
+    header {
+        height: 78px;
+        .menu-logo {
+            .wh {display: none;}
+            .bl {display: block;}
+        }
+        .navbar-default {
+            margin-top: 36px;
+            .navbar-nav {
+                a {
+                    color: #000 !important;
+                    &:hover {
+                        color: #333 !important;
+                    }
+                }
+            }
+        }
+        .menu-btn {
+            background: #000;
+        }
+    }
+}
 
 @import "partials/index";
 @import "partials/sites";
 @import "partials/seo";
+@import "partials/smm";
 
 footer {
     background: $black-light;

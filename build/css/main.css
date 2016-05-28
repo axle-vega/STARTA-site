@@ -2148,10 +2148,10 @@ to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translat
 to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}
 }
 .slideOutUp{-webkit-animation-name:slideOutUp;animation-name:slideOutUp}
-#index_01 .text .text-wrap .seo_text h2,#index_01 .text .text-wrap .seo_text p,#seo_01 .seo .seo-text,#sites_01 .title .text-wrap .text .seo-text,#sites_02 .seo-text{font-size:1.142rem;padding:0;margin:0;line-height:1.2;display:inline}
+#index_01 .text .text-wrap .seo_text h2,#index_01 .text .text-wrap .seo_text p,#seo_01 .seo .seo-text,#sites_01 .title .text-wrap .text .seo-text,#sites_02 .seo-text,#smm_01 .frame-wrap .frame .seo .seo-text{font-size:1.142rem;padding:0;margin:0;line-height:1.2;display:inline}
 #sites_02 h2,#sites_03 h2,#sites_05 .title,#sites_06 .title,#sites_07 .title,#sites_08 .title{font-size:6.43rem;color:#000;padding:0;margin:0;line-height:1;font-weight:600;text-transform:uppercase;text-align:center}
 #sites_02 h2 span,#sites_05 .title span,#sites_06 .title span,#sites_07 .title span,#sites_08 .title span{font-size:3.143rem;color:#000;font-weight:400;display:block;margin:0 auto;text-align:center}
-@media (max-width:480px){#index_01 .text .text-wrap .seo_text h2,#index_01 .text .text-wrap .seo_text p,#seo_01 .seo .seo-text,#sites_01 .title .text-wrap .text .seo-text,#sites_02 .seo-text{display:none}
+@media (max-width:480px){#index_01 .text .text-wrap .seo_text h2,#index_01 .text .text-wrap .seo_text p,#seo_01 .seo .seo-text,#sites_01 .title .text-wrap .text .seo-text,#sites_02 .seo-text,#smm_01 .frame-wrap .frame .seo .seo-text{display:none}
 #sites_02 h2,#sites_03 h2,#sites_05 .title,#sites_06 .title,#sites_07 .title,#sites_08 .title{font-size:2.8rem}
 #sites_02 h2 span,#sites_05 .title span,#sites_06 .title span,#sites_07 .title span,#sites_08 .title span{font-size:2rem}
 }
@@ -2159,29 +2159,36 @@ html{-webkit-tap-highlight-color:transparent;font-size:14px}
 h1,h2,p{color:#000}
 .feedback{cursor:pointer}
 .more{display:none}
+.fixed-menu .navi-button,header .menu-logo .wh{display:block}
 .readmorelink{text-decoration:underline;cursor:pointer}
 .fixed-menu{position:fixed!important;background:rgba(0,0,0,.8);z-index:1000;height:auto}
 .fixed-menu .navbar-default{margin:0}
 .fixed-menu .navbar-default .navbar-nav a{font-size:1.4rem}
 .fixed-menu .navbar-default .navbar-nav .phone{font-size:2.2rem;margin-top:-.35rem}
 .fixed-menu .navbar-default .navbar-nav .dropdown-menu{background:rgba(0,0,0,.85)}
-.fixed-menu .navi-button{display:block}
-header .menu-btn,header .navi-button{display:none;text-align:center;cursor:pointer}
 .fixed-menu .menu-btn{font-size:1.3rem;width:35px;height:35px}
 .fixed-menu .pushy .menu-btn{font-size:1.8rem}
 header{position:absolute;width:100%;height:60px;z-index:15}
+header .menu-logo .bl{display:none}
 header .menu-logo img{width:160px;margin-top:5px}
-header .navi-button{position:absolute;left:50%;top:12px;padding:2px 10px;width:12rem;margin-left:-6rem;color:#fff;font-size:1.14rem;text-transform:uppercase;background:#F12D23;border-radius:4px}
+header .navi-button{display:none;position:absolute;left:50%;top:12px;padding:2px 10px;width:12rem;margin-left:-6rem;text-align:center;color:#fff;font-size:1.14rem;text-transform:uppercase;background:#F12D23;border-radius:4px;cursor:pointer}
 header .navi-button:hover{text-decoration:none;background:#FF5722;color:#fff}
 header .navbar-default .navbar-nav a{font-size:1.715rem;color:#fff;background-color:transparent}
 header .navbar-default .navbar-nav a:hover{color:#CCC!important}
 header .navbar-default .navbar-nav .phone{font-size:2.57rem;margin-top:-.4rem}
 header .navbar-default .navbar-nav .phone span{font-size:1.285rem}
 header .navbar-default{background-color:transparent;border:none;margin-top:18px}
-header .menu-btn{color:#fff;font-size:1.8rem;float:right;width:45px;height:45px;margin:10px;border:1px solid #fff;border-radius:4px}
+header .menu-btn{display:none;cursor:pointer;color:#fff;font-size:1.8rem;float:right;width:45px;height:45px;margin:10px;text-align:center;border:1px solid #fff;border-radius:4px}
 header .menu-btn .glyphicon{display:table-cell;vertical-align:middle}
 header .pushy-phone{display:none;color:#fff;font-size:2rem;padding-top:7px;padding-left:15px}
 header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
+.white-head header{height:78px}
+.white-head header .menu-logo .wh{display:none}
+.white-head header .menu-logo .bl{display:block}
+.white-head header .navbar-default{margin-top:36px}
+.white-head header .navbar-default .navbar-nav a{color:#000!important}
+.white-head header .navbar-default .navbar-nav a:hover{color:#333!important}
+.white-head header .menu-btn{background:#000}
 #index_01{min-height:100vh;width:100%;background-image:url(../img/index/smoke-bg.jpg);background-size:cover;animation:animatedBackground 60s linear infinite;-moz-animation:animatedBackground 60s linear infinite;-webkit-animation:animatedBackground 60s linear infinite;-o-animation:animatedBackground 60s linear infinite}
 #index_01 .main_logo{width:60%;height:37vh;margin:5rem auto 0;text-align:center;background-image:url(../img/index/logo.png);background-position:center;background-repeat:no-repeat;background-size:contain}
 #index_01 .text{height:20vh;display:table}
@@ -2619,14 +2626,14 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #seo_03 .bullets .item p{font-size:2rem;position:inherit;padding-left:10px;border-left:2px solid #fff}
 #seo_03 .bullets .item p br,#seo_03 .center-wrap{display:none}
 }
-#seo_04 .devider,#seo_04 .yg,#seo_04 a,#seo_04 p,#seo_05 .regions .text-wrap .text,#seo_05 .subtitle,#seo_06 .title,#seo_07 .steps .black,#seo_07 .subtitle,#seo_07 .title,#seo_09 .right .promocode .p2{text-align:center}
+#seo_04 .devider,#seo_04 .yg,#seo_04 a,#seo_04 p,#seo_05 .subtitle,#seo_05 .title,#seo_06 .title,#seo_07 .steps .black,#seo_07 .subtitle,#seo_07 .title,#seo_09 .right .promocode .p2,#smm_01 .frame-wrap,#smm_01 .frame-wrap .frame h1{text-align:center}
 #seo_04{background-image:url(../img/seo/seo_bg_4.jpg);background-position:50% 100%}
 #seo_04 p{margin:0}
 #seo_04 .devider img{display:block;margin:35px auto}
 #seo_04 .yg img{display:block;margin:10px auto;max-width:810px;width:100%}
 #seo_04 .p01{font-size:4.28rem;text-transform:uppercase;font-weight:700}
 #seo_04 .p02{font-size:3.42rem;text-transform:lowercase;line-height:1}
-#seo_04 .p04,#seo_04 a,#seo_05 .title,#seo_06 .title,#seo_07 .title,#seo_08 .left .subtitle,#seo_08 .left .title,#seo_09 .left .p01,#seo_09 .right .p01,.modal .modal-dialog .title{text-transform:uppercase}
+#seo_04 .p04,#seo_04 a,#seo_05 .title,#seo_06 .title,#seo_07 .subtitle,#seo_07 .title,#seo_08 .left .subtitle,#seo_09 .left .p01,#seo_09 .right .p01,#smm_01 .frame-wrap .frame h1 .sp01,#smm_01 .frame-wrap .frame h1 .sp02,#smm_01 .frame-wrap .frame h1 .sp03,.modal .modal-dialog .title{text-transform:uppercase}
 #seo_04 .p02 span{display:inline-block;background:#000;color:#fff;padding:2px 10px}
 #seo_04 .p03{font-size:4.28rem;font-weight:700}
 #seo_04 .p04{font-size:7.14rem;font-weight:700}
@@ -2648,10 +2655,10 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #seo_05{padding:3rem 0;background:#20242f}
 #seo_05 p{color:#fff}
 #seo_05 .subtitle{font-size:3.42rem}
-#seo_05 .title{text-align:center;font-size:7.14rem;font-weight:700;margin:0;line-height:1}
+#seo_05 .title{font-size:7.14rem;font-weight:700;margin:0;line-height:1}
 #seo_05 .regions{margin:40px auto}
 #seo_05 .regions .text-wrap{display:table;height:100%;width:100%}
-#seo_05 .regions .text-wrap .text{display:table-cell;vertical-align:middle;height:100%;width:100%;font-size:3.42rem}
+#seo_05 .regions .text-wrap .text{display:table-cell;vertical-align:middle;height:100%;width:100%;text-align:center;font-size:3.42rem}
 #seo_05 .regions .krsk,#seo_05 .regions .russia{background-position:50% 50%;background-repeat:no-repeat;min-height:470px;height:50vh;background-size:contain}
 #seo_05 .regions .krsk{background-image:url(../img/seo/seo_bg_5_1.jpg);border-right:1px #333a4c solid}
 #seo_05 .regions .russia{background-image:url(../img/seo/seo_bg_5_2.jpg);border-left:1px #000 solid}
@@ -2690,7 +2697,7 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #seo_07{background-image:url(../img/seo/seo_bg_7.jpg);background-repeat:repeat;padding:3rem 0;background-position:50% 25%}
 #seo_07 p{color:#fff}
 #seo_07 .title{font-size:7.14rem;font-weight:700;margin:0}
-#seo_07 .subtitle{font-size:3rem;text-transform:uppercase}
+#seo_07 .subtitle{font-size:3rem}
 #seo_07 .steps{padding:3rem 0 1rem}
 #seo_07 .steps div{min-height:35vh}
 #seo_07 .steps div:after{content:"";position:absolute;width:90px;height:100%;top:0;right:-45px;background-image:url(../img/seo/seo-risk-arrow.png);background-position:center;background-size:contain;background-repeat:no-repeat}
@@ -2723,7 +2730,7 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #seo_07 .steps p{font-size:2rem;text-align:center;line-height:1;margin:0;width:100%}
 }
 #seo_08{padding:4rem 0}
-#seo_08 .left .title{font-size:7.14rem;font-weight:700;line-height:1}
+#seo_08 .left .title{font-size:7.14rem;font-weight:700;text-transform:uppercase;line-height:1}
 #seo_08 .left .subtitle{font-size:1.71rem;font-weight:700}
 #seo_08 .left .keywords span{font-size:1.2rem;text-decoration:underline;color:#3073d7;padding-right:.5rem;line-height:1}
 #seo_08 .right .p01{font-size:3.42rem;font-weight:700;line-height:1}
@@ -2780,6 +2787,33 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #seo_09 .right form .promocode{margin:15px 0 15px -15px}
 #seo_09 .right form .promocode .p1{font-size:1.1rem}
 #seo_09 .right form .form-input{padding:8px 18px;font-size:1.2rem;margin-bottom:15px}
+}
+#smm_01{height:100vh;padding:15px}
+#smm_01 .frame-wrap{height:100%;width:100%;display:table}
+#smm_01 .frame-wrap .frame{display:table-cell;vertical-align:middle;height:100%;width:100%;border:10px solid #000}
+#smm_01 .frame-wrap .frame h1 span{display:block;line-height:1}
+#smm_01 .frame-wrap .frame h1 .sp01{font-size:7rem;color:#F12D23;font-weight:700}
+#smm_01 .frame-wrap .frame h1 .sp02{font-size:17.85rem;color:#000024;font-weight:700}
+#smm_01 .frame-wrap .frame h1 .sp03{font-size:3.57rem;color:#051428}
+#smm_01 .frame-wrap .frame .seo{width:75%;margin:0 auto;text-align:left}
+#smm_01 .frame-wrap .frame .seo .seo-text{text-align:left;font-size:1rem;line-height:1;color:#000}
+#smm_01 .frame-wrap .frame .seo .seo-text h2{font-size:1.142rem;padding:0;margin:0;line-height:1.2;display:inline;color:#000}
+#smm_01 .frame-wrap .frame .link-down{margin-top:100px}
+@media (max-width:480px){#smm_01 .frame-wrap .frame h1 .sp01{font-size:2rem;padding:0 10px}
+#smm_01 .frame-wrap .frame h1 .sp02{font-size:3.5rem;padding:0 10px}
+#smm_01 .frame-wrap .frame h1 .sp03{font-size:2rem;padding:0 10px}
+}
+@media (min-width:481px) and (max-width:767px){#smm_01 .frame-wrap .frame h1 .sp01{font-size:4rem;padding:0 15px}
+#smm_01 .frame-wrap .frame h1 .sp02{font-size:6.85rem;padding:0 15px}
+#smm_01 .frame-wrap .frame h1 .sp03{font-size:2rem;padding:0 15px}
+}
+@media (min-width:768px) and (max-width:990px){#smm_01 .frame-wrap .frame h1 .sp01{font-size:5rem;padding:0 15px}
+#smm_01 .frame-wrap .frame h1 .sp02{font-size:8.85rem;padding:0 15px}
+#smm_01 .frame-wrap .frame h1 .sp03{font-size:2.57rem;padding:0 15px}
+}
+@media (min-width:991px) and (max-width:1199px){#smm_01 .frame-wrap .frame h1 .sp01{font-size:5rem;padding:0 15px}
+#smm_01 .frame-wrap .frame h1 .sp02{font-size:10.85rem;padding:0 15px}
+#smm_01 .frame-wrap .frame h1 .sp03{font-size:2.57rem;padding:0 15px}
 }
 footer{background:#1f1f1f;padding:30px 0}
 footer a,footer p{color:#fff}
