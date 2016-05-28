@@ -1,12 +1,172 @@
 #seo_09 {
     padding: 4rem 0;
     background-image: url('../img/seo/seo_bg_9.jpg');
+    background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    .container {
+        background-image: url('../img/seo/seo-foot-offer-bg.png');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 40px 20px 20px 20px;
+    }
+    .left {
+        p, li {color: #fff;}
+        .p01 {
+            font-size: 6.42rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 2px;
+            line-height: 1;
+            margin-top: 20px;
+        }
+        .p02 {
+            font-size: 3.28rem;
+            line-height: 1;
+        }
+        .p03 {
+            font-size: 26px;
+            padding: 4px 16px;
+            margin-top: 50px;
+            margin-left: -15px;
+            border: 1px #FFEF82 solid;
+            display: inline-block;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                font-size: 1.8rem;
+            }
+        }
+    }
+    .right {
+        form {
+            background: #ffef82;
+            padding: 45px;
+        }
+        .deadline {
+            background: #fff;
+            position: absolute;
+            font-size: 1.71rem;
+            top: 30px;
+            right: -30px;
+            padding: 0 5px;
+        }
+        .p01 {
+            font-weight: 600;
+            font-size: 4.28rem;
+            padding-top: 30px;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            line-height: 1;
+            z-index: 2;
+            position: relative;
+        }
+        .p02 {
+            font-size: 1.8rem;
+            z-index: 2;
+            position: relative;
+        }
+        .promocode {
+            margin: 25px 0px 25px -15px;
+            .p1 {
+                font-size: 1.7rem;
+                font-weight: 600;
+                line-height: 1;
+                span {
+                    font-size: 1rem;
+                    font-weight: 100;
+                }
+            }
+            .p2 {
+                display: block;
+                background: #a6a6a6;
+                color: #fff;
+                text-align: center;
+                padding: 8px 5px;
+                font-size: 1.5rem;
+            }            
+        }
+        .form-input {
+            width: 100%;
+            border: 1px #000 solid;
+            padding: 12px 18px;
+            font-size: 1.42rem;
+            margin-bottom: 18px;
+            color: #333;
+            background: #FFEF82;
+        }
+        input[type="text"] {
+            color: #333;
+        }
+        .form-button {
+            border: none;
+            background: #f12d23;
+            color: #fff;
+            border-radius: 4px;
+            display: block;
+            font-size: 2.28rem;
+            padding: 4px 25px 7px 25px;
+            margin-top: 5px;
+        }
+    }
 }
 
 @media (max-width: 480px) {
-
+    #seo_09 {
+        padding: 0;
+        .container {
+            background: none;
+            padding: 0 15px;
+        }
+        .left {
+            .p01 {
+                font-size: 3rem;
+                text-align: center;
+            }
+            .p02 {
+                font-size: 2rem;
+                text-align: center;
+            }
+            .p03 {
+                margin-top: 20px;
+                margin-left: 0;
+            }
+            ul {
+                li {
+                    font-size: 1.5rem;
+                    line-height: 1;
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+        .right {
+            form {
+                padding: 30px 20px;
+                .deadline {
+                    font-size: 1.3rem;
+                    text-align: center;
+                    top: 20px;
+                    right: 10px;
+                    left: 10px;
+                }
+                .p01 {
+                    font-size: 3rem;
+                    text-align: center;
+                    padding-top: 30px;
+                }
+                .p02 {
+                    font-size: 1.4rem;
+                    text-align: center;
+                    line-height: 1;
+                }
+                .promocode {display: none;}
+            }
+        }
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -14,9 +174,73 @@
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
+    #seo_09 {
+        .container {
+            background: none;
+            padding: 0 15px;
+        }
+        .right {
+            margin-top: 40px;
+            form {
+                width: 85%;
+                margin: 0 auto;
+                .deadline {
+                    right: 0;
+                    left: 0;
+                    top: 25px;
+                    width: 74%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
     
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
-    
+    #seo_09 {
+        .left {
+            .p01 {
+                font-size: 5.42rem;
+            }
+            .p02 {
+                font-size: 2.28rem;
+            }
+            .p03 {
+                margin-left: 0px;
+            }
+            ul {
+                li {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        .right {
+            form {
+                padding: 30px;
+                .deadline {
+                    font-size: 1.2rem;
+                    top: 10px;
+                }
+                .p01 {
+                    padding-top: 15px;
+                    font-size: 3.28rem;
+                }
+                .p02 {
+                    font-size: 1.2rem;
+                }
+                .promocode {
+                    margin: 15px 0 15px -15px;
+                    .p1 {
+                        font-size: 1.1rem;
+                    }
+                }
+                .form-input {
+                    padding: 8px 18px;
+                    font-size: 1.2rem;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
 }
