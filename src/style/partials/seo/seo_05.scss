@@ -1,0 +1,105 @@
+#seo_05 {
+    padding: 3rem 0;
+    background: #20242f;
+    p {color: #fff;}
+    .subtitle {
+        text-align: center;
+        font-size: 3.42rem;
+    }
+    .title {
+        text-align: center;
+        font-size: 7.14rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+        line-height: 1;
+    }
+    .regions {
+        margin: 40px auto;
+        .text-wrap {
+            display: table;
+            height: 100%;
+            width: 100%;
+            .text {
+                display: table-cell;
+                vertical-align: middle;
+                height: 100%;
+                width: 100%;
+                text-align: center;
+                font-size: 3.42rem;
+            }
+        }
+        .krsk {
+            background-image: url('../img/seo/seo_bg_5_1.jpg');
+            background-size: contain;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            min-height: 470px;
+            height: 50vh;
+            border-right: 1px #333a4c solid;
+        }
+        .russia {
+            background-image: url('../img/seo/seo_bg_5_2.jpg');
+            background-size: contain;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            min-height: 470px;
+            height: 50vh;
+            border-left: 1px #000 solid;
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    #seo_05 {
+        padding: 2rem 0 0 0;
+        .subtitle {
+            font-size: 2rem;
+            line-height: 1;
+            padding: 0 15px;
+        }
+        .title {
+            font-size: 3rem;
+            padding: 0 15px;
+        }
+        .regions {
+            .krsk, .russia {
+                min-height: 50vh;
+                border: none;
+                .text {
+                    font-size: 2.2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #seo_05 {
+        .regions {
+            .krsk, .russia {
+                width: 100%;
+                border: none;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    #seo_05 {
+        .regions {
+            .krsk, .russia {
+                min-height: 30vh;
+                height: 30vh;
+                .text {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    
+}

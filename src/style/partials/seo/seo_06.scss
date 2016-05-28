@@ -1,0 +1,108 @@
+#seo_06 {
+    padding: 3rem 0;
+    .title {
+        font-size: 7.14rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+    }
+    .left {
+        .case-name {
+            font-size: 4.28rem;
+            font-weight: bold;
+            margin: 0;
+            line-height: 1;
+        }
+        .case-region {
+            font-size: 1.71rem;
+            margin-bottom: 40px;
+        }
+        .case-icon {
+            float: left;
+            margin-right: 15px;
+        }
+        .description {
+            .p01 {
+                font-size: 2.5rem;
+                line-height: 1;
+                .red {
+                    color: $red;
+                }
+            }
+            .p02 {
+                font-size: 1.8rem;
+                margin-top: 18px;
+                line-height: 1;
+                margin-bottom: 0;
+            }
+        }
+        .case-positions {
+            margin-top: 40px;
+            img {
+                width: 100%;
+                max-width: 414px;
+            }
+        }
+        .case-date {
+            margin-top: 15px;
+            font-size: 1.14rem;
+        }
+    }
+    .right {
+        img {
+            width: 90%;
+            display: block;
+            margin: 0 auto;
+            max-width: 490px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    #seo_06 {
+        .title {
+            font-size: 3rem;
+            padding: 0 15px;
+            font-weight: 700;
+            line-height: 1;
+        }
+        .left {
+            .case-name {
+                font-size: 2.3rem;
+                margin-top: 1rem;
+            }
+            .case-region {
+                font-size: 1.2rem;
+            }
+            .case-icon {
+                 width: 30%;
+            }
+            .description {
+                .p01 {
+                    font-size: 1.5rem;
+                }
+                .p02 {
+                    font-size: 1.1rem;
+                }
+            }
+            .case-positions {
+                margin-top: 20px;
+                img {
+                    margin-top: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    
+}

@@ -1,0 +1,73 @@
+#seo_08 {
+    padding: 4rem 0;
+    .left {
+        .title {
+            font-size: 7.14rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 1;
+        }
+        .subtitle {
+            font-size: 1.71rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .keywords {
+            span {
+                font-size: 1.2rem;
+                text-decoration: underline;
+                color: #3073d7;
+                padding-right: 0.5rem;
+                line-height: 1;
+            }
+        }
+    }
+    .right {
+        .p01 {
+            font-size: 3.42rem;
+            font-weight: bold;
+            line-height: 1;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    #seo_08 {
+        padding: 2rem 0;
+        .left {
+            .title {
+                font-size: 3rem;
+                padding: 0 15px;
+            }
+            .subtitle {
+                
+                padding: 0 15px;
+            }
+        }
+        .right {
+            .p01 {
+                font-size: 1.6rem;
+                padding: 0 15px;
+                text-align: center;
+            }
+            img {
+                width: 100%;
+                max-width: 233px;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    
+}
