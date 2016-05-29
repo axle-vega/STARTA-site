@@ -72,6 +72,51 @@ p, h1, h2 {color: #000;}
 
     }
 }
+.white-head {
+    .fixed-menu {
+        position: fixed !important;
+        background: rgba(0,0,0,0.8);
+        z-index: 1000;
+        height: auto;
+        .menu-logo {
+            .wh {display: block;}
+            .bl {display: none;}
+        }
+        .navbar-default {
+            margin: 0;
+            .navbar-nav {
+                a {
+                    font-size: 1.4rem;
+                    color: #fff;
+                    &:hover {
+                        color: #ccc;
+                    }
+                }
+                .phone {
+                    font-size: 2.2rem;
+                    margin-top: -0.35rem;
+                }
+                .dropdown-menu {
+                    background: rgba(0,0,0,0.85);
+                }
+            }
+        }
+        .navi-button {
+            display: block;
+        }
+        .menu-btn {
+            font-size: 1.3rem;
+            width: 35px;
+            height: 35px;
+        }
+        .pushy {
+            .menu-btn {
+                font-size: 1.8rem;
+            }
+
+        }
+    }
+}
 
 header {
     position: absolute;
@@ -114,7 +159,7 @@ header {
                 color: #fff;
                 background-color: transparent;
                 &:hover {
-                    color: #CCCCCC !important;
+                    color: #CCCCCC;
                 }
             }
             .phone {
@@ -171,9 +216,9 @@ header {
             margin-top: 36px;
             .navbar-nav {
                 a {
-                    color: #000 !important;
+                    color: #000;
                     &:hover {
-                        color: #333 !important;
+                        color: #333;
                     }
                 }
             }
@@ -212,6 +257,7 @@ footer {
     .footer-phone {
         text-align: right;
         font-size: 2.57rem;
+        a {display: inline-block;}
         span {font-size: 1.71rem;}
         .modal_btn {
             width: 160px;

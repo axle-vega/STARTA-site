@@ -1,0 +1,131 @@
+#smm_04 {
+    background-image: url('../img/smm/smm-04.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5vh 0;
+    .frame {
+        border: 20px solid #fff;
+        margin: 3vh 0;
+        padding: 5vh;
+        .title {
+            font-size: 7.5rem;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-align: center;
+            line-height: 1;
+            margin: 0;
+        }
+        .subtitle {
+            font-size: 4.28rem;
+            text-transform: uppercase;
+            color: #fff;
+            text-align: center;
+        }
+        .counts {
+            .item {
+                .c {
+                    font-size: 12.71rem;
+                    font-weight: bold;
+                    line-height: 1;
+                    color: #fff;
+                    text-align: center;
+                    margin: 0;
+                }
+                .befaft {
+                    &:before {
+                        content: "более";
+                        position: absolute;
+                        font-size: 2.28rem;
+                        color: #fff;
+                        top: 0;
+                        margin-left: -5rem;
+                    }
+                    &:after {
+                        content: "лет";
+                        position: absolute;
+                        font-size: 2.28rem;
+                        color: #fff;
+                        margin-top: 9.5rem;
+                        margin-left: 1rem;
+                    }
+                }
+                .descript {
+                    color: #fff;
+                    text-align: center;
+                    font-size: 2.28rem;
+                    line-height: 1;
+                    span {
+                        font-size: 1.57rem;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    #smm_04 {
+        padding: 0;
+        .frame {
+            border: 5px solid #fff;
+            margin: 2vh;
+            padding: 3vh 1vh;
+            .title {
+                font-size: 3rem;
+                padding: 0 5px;
+            }
+            .subtitle {
+                font-size: 2rem;
+                padding: 0 5px;
+                line-height: 1;
+            }
+            .counts {
+                .item {
+                    margin-bottom: 1rem;
+                    .befaft {
+                        &:before {
+                            top: 2rem;
+                            margin-left: -4.5rem;
+                        }
+                        &:after {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    #smm_04 {
+        .frame {
+            .title {
+                font-size: 4.5rem;
+            }
+            .subtitle {
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    #smm_04 {
+        .frame {
+            .title {
+                font-size: 4.5rem;
+            }
+            .subtitle {
+                font-size: 4rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+#smm_06 {
+    background-image: url('../img/smm/smm-06.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 3vh 0;
+    .title {
+        font-size: 7.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+    }
+    .subtitle {
+        font-size: 3.48rem;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 1;
+    }
+    .count {
+        font-size: 9.85rem;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+        
+        line-height: 1;
+        span {color: $red;}
+    }
+    .descript {
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    
+}

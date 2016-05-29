@@ -1,0 +1,265 @@
+#smm_02 {
+    min-height: 100vh;
+    .under-bg {
+        width: 100%;
+        min-height: 100vh;
+        .left {
+            min-height: 100vh;
+            background: #051428;
+            width: 50%;
+            display: block;
+            float: left;
+        }
+        .right {
+            min-height: 100vh;
+            background: #0f375f;
+            width: 50%;
+            display: block;
+            float: left;
+        }
+    }
+    .bg {
+        min-height: 100vh;
+        .item {
+            min-height: 100vh;
+            width: 25%;
+            display: block;
+            float: left;
+            margin-top: -100vh;
+            position: relative;
+        }
+        .bg1 {background: #051428; left: 0%;}
+        .bg2 {background: #0f2346; left: 25%;}
+        .bg3 {background: #0f325a; left: 50%;}
+        .bg4 {background: #0f375f; left: 75%;}
+    }
+    .content {
+        position: relative;
+        margin-top: -100vh;
+        .row {
+            position: absolute;
+            width: 100%;
+            padding: 1vh 0;
+        }
+    }
+    .head-wrap {
+        display: table;
+        min-height: 34vh;
+        width: 100%;
+        .head {
+            display: table-cell;
+            vertical-align: middle;
+            min-height: 34vh;
+            width: 100%;
+            h2 {
+                font-size: 8.57rem;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-align: center;
+                span {
+                    font-size: 4.28rem;
+                    display: block;
+                }
+            }
+            .seo {
+                width: 80%;
+                margin: 0 auto;
+                .seo-text {
+                    @extend %seo-text;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .blocks-wrap {
+        display: table;
+        min-height: 64vh;
+        width: 100%;
+        .blocks {
+            display: table-cell;
+            vertical-align: middle;
+            min-height: 64vh;
+            width: 100%;
+            .item {
+                text-align: center;
+                img {
+                    width: 100%;
+                    max-width: 196px;
+                    margin: 0 auto;
+                    display: block;
+                }
+                p {
+                    color: #fff;
+                    font-size: 1.72rem;
+                    margin-top: 2rem;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 480px) {
+    #smm_02 {
+        height: initial;
+        min-height: initial;
+        .content {
+            margin: 0;
+            background: #051428;
+            height: initial;
+            min-height: initial;
+            .row {
+                position: initial;
+                width: initial;
+            }
+        }
+        .under-bg {display: none;}
+        .head-wrap {
+            .head {
+                h2 {
+                    font-size: 3rem;
+                    padding: 0 15px;
+                    span {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+        .blocks-wrap {
+            .blocks {
+                .item {
+                    min-height: 280px;
+                    p {
+                        margin-top: 0.5rem;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #smm_02 {
+        height: initial;
+        min-height: initial;
+        .content {
+            margin: 0;
+            background: #051428;
+            height: initial;
+            min-height: initial;
+            .row {
+                position: initial;
+                width: initial;
+            }
+        }
+        .under-bg {display: none;}
+        .head-wrap {
+            .head {
+                h2 {
+                    font-size: 3rem;
+                    padding: 0 15px;
+                    span {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+        .blocks-wrap {
+            .blocks {
+                .item {
+                    min-height: 280px;
+                    p {
+                        margin-top: 0.5rem;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    #smm_02 {
+        height: initial;
+        min-height: initial;
+        .content {
+            margin: 0;
+            width: 100%;
+            background: #051428;
+            height: initial;
+            min-height: initial;
+            .row {
+                position: initial;
+                width: initial;
+            }
+        }
+        .under-bg {display: none;}
+        .head-wrap {
+            .head {
+                h2 {
+                    font-size: 4.5rem;
+                    padding: 0 15px;
+                    span {
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+        .blocks-wrap {
+            .blocks {
+                .item {
+                    min-height: 310px;
+                    p {
+                        margin-top: 0.5rem;
+                        font-size: 1.7rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    #smm_02 {
+        height: initial;
+        min-height: initial;
+        .content {
+            margin: 0;
+            width: 100%;
+            background: #051428;
+            height: initial;
+            min-height: initial;
+            .row {
+                position: initial;
+                width: initial;
+            }
+        }
+        .under-bg {display: none;}
+        .head-wrap {
+            .head {
+                h2 {
+                    font-size: 6rem;
+                    padding: 0 15px;
+                    span {
+                        font-size: 3.28rem;
+                        padding: 0 15px;
+                    }
+                }
+            }
+        }
+        .blocks-wrap {
+            .blocks {
+                .item {
+                    min-height: 310px;
+                    p {
+                        margin-top: 0.5rem;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
