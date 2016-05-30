@@ -37,15 +37,51 @@
 }
 
 @media (max-width: 480px) {
-
+    #smm_06 {
+        .title {
+            font-size: 3rem;
+            line-height: 1;
+            padding: 0 15px;
+        }
+        .subtitle {
+            font-size: 2rem;
+            padding: 0 15px;
+        }
+        .count {
+            font-size: 4rem;
+        }
+        .descript {
+            padding: 0 15px;
+        }
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-    
+    #smm_06 {
+        .title {
+            font-size: 3rem;
+            line-height: 1;
+            padding: 0 15px;
+        }
+        .subtitle {
+            font-size: 2rem;
+            padding: 0 15px;
+        }
+        .count {
+            font-size: 4rem;
+        }
+        .descript {
+            padding: 0 15px;
+        }
+    }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
-    
+    #smm_06 {
+        .title {
+            font-size: 4.5rem;
+        }
+    }
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
