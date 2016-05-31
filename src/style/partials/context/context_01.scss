@@ -30,7 +30,7 @@
                     width: 100%;
                     h1, a, div, p {color: #fff;}
                     h1 {
-                        font-size: 7rem;
+                        font-size: 6rem;
                         font-weight: bold;
                         text-transform: uppercase;
                         line-height: 1;
@@ -70,21 +70,181 @@
         left: 50%;
         bottom: -40%;
         margin-left: -20%;
+        .link-wrap {
+            height: 25%;
+            display: table;
+            width: 100%;
+            .link {
+                height: 100%;
+                display: table-cell;
+                vertical-align: middle;
+                width: 100%;
+                a {
+                    position: relative;
+                    top: 10%;
+                }
+            }
+        }
+        .text-wrap {
+            height: 40%;
+            display: table;
+            width: 100%;
+            .text {
+                height: 100%;
+                display: table-cell;
+                vertical-align: bottom;
+                width: 100%;
+                .title {
+                    font-size: 7.5rem;
+                    color: #fff;
+                    font-weight: bold;
+                    line-height: 1;
+                    margin: 0;
+                }
+                h2, .subtitle {
+                    font-size: 2.57rem;
+                    font-weight: bold;
+                    color: #fff;
+                    line-height: 1;
+                    margin: 0;
+                }
+                h2 {
+                    padding:0;
+                    font-size: 2rem;
+                }
+            }
+        }
     }
 }
 
 @media (max-width: 480px) {
-
+    #context_01 {
+        .frame-wrap {
+            .frame {
+                .text-wrap {
+                    .text {
+                        h1 {
+                            font-size: 3rem;
+                        }
+                        .subtitle {
+                            font-size: 2.4rem;
+                            line-height: 1;
+                            span {
+                                font-size: 2.3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .arrow-down {
+            width: 100%;
+            height: 50vh;
+            bottom: -25%;
+            margin-left: -50%;
+            .text-wrap {
+                .text {
+                    .title {
+                        font-size: 3rem;
+                    }
+                    h2, .subtitle {
+                        font-size: 1.3rem;
+                        font-weight: 100;
+                        padding: 0 15px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-    
+    #context_01 {
+        .frame-wrap {
+            .frame {
+                .text-wrap {
+                    .text {
+                        h1 {
+                            font-size: 3rem;
+                        }
+                        .subtitle {
+                            font-size: 2.4rem;
+                            line-height: 1;
+                            span {
+                                font-size: 2.3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .arrow-down {
+            width: 100%;
+            height: 50vh;
+            bottom: -25%;
+            margin-left: -50%;
+            .text-wrap {
+                .text {
+                    .title {
+                        font-size: 3rem;
+                    }
+                    h2, .subtitle {
+                        font-size: 1.3rem;
+                        font-weight: 100;
+                        padding: 0 15px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
-    
+    #context_01 {
+        .frame-wrap {
+            .frame {
+                .text-wrap {
+                    .text {
+                        h1 {
+                            font-size: 4.5rem;
+                        }
+                        .subtitle {
+                            font-size: 2.42rem;
+                        }
+                    }
+                }
+            }
+        }
+        .arrow-down {
+            height: 50vh;
+            width: 70%;
+            bottom: -35%;
+            margin-left: -35%;
+        }
+    }
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
-    
+    #context_01 {
+        .frame-wrap {
+            .frame {
+                .text-wrap {
+                    .text {
+                        h1 {
+                            font-size: 4.5rem;
+                        }
+                        .subtitle {
+                            font-size: 2.42rem;
+                        }
+                    }
+                }
+            }
+        }
+        .arrow-down {
+            height: 70vh;
+            width: 90%;
+            bottom: -45%;
+            margin-left: -35%;
+        }
+    }
 }

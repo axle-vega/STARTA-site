@@ -1,9 +1,142 @@
 #context_06 {
-    
+    padding: 8vh 0;
+    background-image: url('../img/context/context_06.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    .left {
+        padding-left: 0;
+        p {color: #fff;}
+        .p01 {
+            font-size: 8rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 2px;
+            line-height: 1;
+            margin-top: 0px;
+            margin-bottom: 0;
+        }
+        .p02 {
+            font-size: 4.28rem;
+            line-height: 1;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .p03 {
+            font-size: 1.85rem;
+            display: inline-block;
+            padding: 0px 15px;
+            text-transform: uppercase;
+            margin-left: -15px;
+            font-weight: bold;
+            margin-top: 10px;
+            span {
+                background: $red;
+                padding: 0 7px;
+            }
+        }
+        .p04 {
+            font-size: 10.71rem;
+            line-height: 1;
+            font-weight: bold;
+            margin: 0;
+        }
+    }
+    .right {
+        .form {
+            background: #fff;
+            padding: 45px;
+            .p01 {
+                background: #fff257;
+                position: absolute;
+                font-size: 1.71rem;
+                right: -30px;
+                top: 35px;
+                padding: 0 5px;
+            }
+            .p02 {
+                font-weight: 600;
+                font-size: 3.57rem;
+                padding-top: 80px;
+                text-transform: uppercase;
+                margin-bottom: 0;
+                line-height: 1;
+                z-index: 2;
+                position: relative;
+            }
+            .p03 {
+                font-size: 1.71rem;
+                z-index: 2;
+                position: relative;
+            }
+            .promocode {
+                margin: 25px 0px 25px -15px;
+                .p1 {
+                    font-size: 1.71rem;
+                    font-weight: 600;
+                    line-height: 1;
+                    span {
+                        font-size: 1rem;
+                        font-weight: 100;
+                    }
+                }
+                .p2 {
+                    font-size: 1.71rem;
+                    padding: 10px 5px;
+                    display: block;
+                    background: #a6a6a6;
+                    color: #fff;
+                    text-align: center;
+                }
+            }
+            .form-input {
+                width: 100%;
+                border: 1px #000 solid;
+                padding: 12px 15px;
+                font-size: 1.71rem;
+                margin-bottom: 22px;
+                color: #333;
+                background: #fff;
+            }
+            input[type="text"] {
+                color: #333;
+            }
+            .form-button {
+                border: none;
+                background: #f12d23;
+                color: #fff;
+                border-radius: 4px;
+                font-size: 1.71rem;
+                padding: 7px 25px;
+                display: block;
+            }
+        }
+    }
 }
 
 @media (max-width: 480px) {
-
+    #context_06 {
+        .left {
+            padding-left: 15px;
+            .p01 {
+                font-size: 3rem;
+            }
+            .p02 {
+                font-size: 3rem;
+            }
+            .p04 {
+                font-size: 8rem;
+            }
+        }
+        .right {
+            .form {
+                padding: 20px;
+                .p01 {
+                    right: 0;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -11,9 +144,58 @@
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
-    
+    #context_06 {
+        .left {
+            padding-left: 15px;
+            text-align: center;
+            .p01 {
+                font-size: 5rem;
+            }
+            .p02 {
+                font-size: 3.28rem;
+            }
+        }
+        .right {
+            .form {
+                .p01 {
+                    right: 0;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
-    
+    #context_06 {
+        .left {
+            .p01 {
+                font-size: 5rem;
+            }
+            .p03 {
+                font-size: 1.5rem;
+            }
+        }
+        .right {
+            .form {
+                padding: 26px;
+                .p01 {
+                    right: 0;
+                    top: 20px;
+                }
+                .p02 {
+                    font-size: 2rem;
+                    padding-top: 45px;
+                }
+                .p03 {
+                    font-size: 1rem;
+                }
+                .promocode {
+                    margin: 10px 0 10px -15px;
+                    .p1 {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
 }

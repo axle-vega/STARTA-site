@@ -9868,6 +9868,21 @@ $(function () {
         }
     }); 
 });
+
+$(function(){
+    $(".ya-link").on("click", function(){
+        $(".ya").css("display", "block");
+        $(".goo").css("display", "none");
+        $(".ya-link").addClass("active");
+        $(".goo-link").removeClass("active");
+    });
+    $(".goo-link").on("click", function(){
+        $(".goo").css("display", "block");
+        $(".ya").css("display", "none");
+        $(".goo-link").addClass("active");
+        $(".ya-link").removeClass("active");
+    });
+});
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.

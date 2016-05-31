@@ -24,3 +24,18 @@ $(function () {
         }
     }); 
 });
+
+$(function(){
+    $(".ya-link").on("click", function(){
+        $(".ya").css("display", "block");
+        $(".goo").css("display", "none");
+        $(".ya-link").addClass("active");
+        $(".goo-link").removeClass("active");
+    });
+    $(".goo-link").on("click", function(){
+        $(".goo").css("display", "block");
+        $(".ya").css("display", "none");
+        $(".goo-link").addClass("active");
+        $(".ya-link").removeClass("active");
+    });
+});

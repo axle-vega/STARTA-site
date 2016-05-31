@@ -1,9 +1,66 @@
 #context_05 {
-    
+    padding: 8vh 0;
+    .title {
+        font-size: 7rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    .case-logo {
+        height: 135px;
+        background: #263645;
+        img {
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .case-name {
+        height: 135px;
+        background: #e6e6e6;
+        .wrap {
+            display: table;
+            height: 100%;
+            width: 100%;
+            p {
+                display: table-cell;
+                vertical-align: middle;
+                height: 100%;
+                font-size: 1.57rem;
+                padding-left: 30px;
+                font-weight: bold;
+            }
+        }
+    }
+    .case-target {
+        font-size: 1.71rem;
+        line-height: 1;
+        margin: 15px 0;
+    }
+    .google, .yandex {
+        margin-top: 15px;
+        > .row {
+            margin-right: -7px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            padding: 15px;
+            background: #e6e6e6;
+        }
+    }
 }
 
 @media (max-width: 480px) {
-
+    #context_05 {
+        .title {
+            font-size: 3rem;
+            padding: 0 15px;
+        }
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -11,7 +68,11 @@
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
-    
+    #context_05 {
+        .title {
+            font-size: 5rem;
+        }
+    }
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
