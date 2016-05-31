@@ -9860,11 +9860,11 @@ $(function () {
     $('.readmorelink').click(function () {
         var text = $(this).prev();
         if (text.css('display') == 'none') {
-            text.show();
+            text.show(100);
             $(this).text('Скрыть подробности');
         } else {
             $(this).text('Читать подробнее');
-            text.hide();
+            text.hide(100);
         }
     }); 
 });

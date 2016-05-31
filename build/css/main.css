@@ -2149,10 +2149,10 @@ to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translat
 to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}
 }
 .slideOutUp{-webkit-animation-name:slideOutUp;animation-name:slideOutUp}
-#index_01 .text .text-wrap .seo_text h2,#index_01 .text .text-wrap .seo_text p,#seo_01 .seo .seo-text,#sites_01 .title .text-wrap .text .seo-text,#sites_02 .seo-text,#smm_01 .frame-wrap .frame .seo .seo-text,#smm_02 .head-wrap .head .seo .seo-text{font-size:1.142rem;padding:0;margin:0;line-height:1.2;display:inline}
+#context_01 .frame-wrap .frame .text-wrap .text .seo .seo-text,#index_01 .text .text-wrap .seo_text h2,#index_01 .text .text-wrap .seo_text p,#seo_01 .seo .seo-text,#sites_01 .title .text-wrap .text .seo-text,#sites_02 .seo-text,#smm_01 .frame-wrap .frame .seo .seo-text,#smm_02 .head-wrap .head .seo .seo-text{font-size:1.142rem;padding:0;margin:0;line-height:1.2;display:inline}
 #sites_02 h2,#sites_03 h2,#sites_05 .title,#sites_06 .title,#sites_07 .title,#sites_08 .title{font-size:6.43rem;color:#000;padding:0;margin:0;line-height:1;font-weight:600;text-transform:uppercase;text-align:center}
 #sites_02 h2 span,#sites_05 .title span,#sites_06 .title span,#sites_07 .title span,#sites_08 .title span{font-size:3.143rem;color:#000;font-weight:400;display:block;margin:0 auto;text-align:center}
-@media (max-width:480px){#index_01 .text .text-wrap .seo_text h2,#index_01 .text .text-wrap .seo_text p,#seo_01 .seo .seo-text,#sites_01 .title .text-wrap .text .seo-text,#sites_02 .seo-text,#smm_01 .frame-wrap .frame .seo .seo-text,#smm_02 .head-wrap .head .seo .seo-text{display:none}
+@media (max-width:480px){#context_01 .frame-wrap .frame .text-wrap .text .seo .seo-text,#index_01 .text .text-wrap .seo_text h2,#index_01 .text .text-wrap .seo_text p,#seo_01 .seo .seo-text,#sites_01 .title .text-wrap .text .seo-text,#sites_02 .seo-text,#smm_01 .frame-wrap .frame .seo .seo-text,#smm_02 .head-wrap .head .seo .seo-text{display:none}
 #sites_02 h2,#sites_03 h2,#sites_05 .title,#sites_06 .title,#sites_07 .title,#sites_08 .title{font-size:2.8rem}
 #sites_02 h2 span,#sites_05 .title span,#sites_06 .title span,#sites_07 .title span,#sites_08 .title span{font-size:2rem}
 }
@@ -3020,6 +3020,7 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #smm_07 .row2 .right .form{width:90%;height:425px;background:#fff;display:block;margin:0 auto 0 0;padding:50px 40px;position:relative}
 #smm_07 .row2 .right .form .deadline{width:148px;height:169px;background-image:url(../img/smm/smm-deadline.jpg);background-repeat:no-repeat;background-position:center;position:absolute;right:-20px;top:-25px;box-shadow:0 0 26px 1px rgba(91,91,91,.7)}
 #smm_07 .row2 .right .form .title{font-size:36px;text-align:left;text-transform:uppercase;font-weight:700;line-height:1.15;margin-bottom:20px;color:#000}
+#context_01 .frame-wrap .frame .text-wrap .text a,#context_01 .frame-wrap .frame .text-wrap .text div,#context_01 .frame-wrap .frame .text-wrap .text h1,#context_01 .frame-wrap .frame .text-wrap .text p,footer a,footer p{color:#fff}
 #smm_07 .row2 .right .form .input-medium{font-size:24px;font-weight:100;margin:10px 0;padding:7px 20px;width:95%;border:1px solid #000}
 #smm_07 .row2 .right .form .feedback{font-size:30px;background:#e22d26;color:#fff;font-weight:700;padding:2px 20px 4px;margin-top:24px}
 @media (max-width:480px){#smm_07 .subtitle,#smm_07 .title{font-size:3rem}
@@ -3068,8 +3069,18 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 @media (min-width:991px) and (max-width:1199px){#smm_07 .subtitle,#smm_07 .title{font-size:6rem}
 #smm_07 .subsubtitle{font-size:4rem}
 }
+#context_01{min-height:100vh;background-image:url(../img/context/context_01.jpg);background-repeat:no-repeat;background-position:50% 50%;background-size:cover;padding:70px 0;display:table;width:100%}
+#context_01 .frame-wrap{display:table-cell;vertical-align:bottom;width:100%;text-align:center}
+#context_01 .frame-wrap .frame{max-height:80vh;height:100vh;width:90%;margin:0 auto;border:5px solid #F12D23}
+#context_01 .frame-wrap .frame .text-wrap{display:table;height:75%;width:100%;padding:20px}
+#context_01 .frame-wrap .frame .text-wrap .text{display:table-cell;vertical-align:middle;height:100%;width:100%}
+#context_01 .frame-wrap .frame .text-wrap .text h1{font-size:7rem;font-weight:700;text-transform:uppercase;line-height:1}
+#context_01 .frame-wrap .frame .text-wrap .text .subtitle{font-size:3.42rem;margin:0}
+#context_01 .frame-wrap .frame .text-wrap .text .subtitle span{font-weight:700;text-transform:uppercase;display:block}
+#context_01 .frame-wrap .frame .text-wrap .text .seo{width:75%;margin:0 auto}
+#context_01 .frame-wrap .frame .text-wrap .text .seo .seo-text{font-size:1rem}
+#context_01 .arrow-down{height:70vh;max-height:648px;width:40%;max-width:700px;text-align:center;background-image:url(../img/context/context_01_arrow_down.png);background-position:center top;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;bottom:-40%;margin-left:-20%}
 footer{background:#1f1f1f;padding:30px 0}
-footer a,footer p{color:#fff}
 footer a:focus,footer a:hover{color:#B9B9B9;text-decoration:none}
 footer .footer-logo img{max-width:16.42rem}
 footer .footer-logo .city{font-size:1.71rem;padding-left:.71rem;padding-top:.71rem}

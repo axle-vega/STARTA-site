@@ -1,0 +1,90 @@
+#context_01 {
+    min-height: 100vh;
+    background-image: url('../img/context/context_01.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 70px 0;
+    display: table;
+    width: 100%;
+    .frame-wrap {
+        display: table-cell;
+        vertical-align: bottom;
+        width: 100%;
+        text-align: center;
+        .frame {
+            max-height: 80vh;
+            height: 100vh;
+            width: 90%;
+            margin: 0 auto;
+            border: 5px solid $red;
+            .text-wrap {
+                display: table;
+                height: 75%;
+                width: 100%;
+                padding: 20px;
+                .text {
+                    display: table-cell;
+                    vertical-align: middle;
+                    height: 100%;
+                    width: 100%;
+                    h1, a, div, p {color: #fff;}
+                    h1 {
+                        font-size: 7rem;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        line-height: 1;
+                    }
+                    .subtitle {
+                        font-size: 3.42rem;
+                        margin:0;
+                        span {
+                            font-weight: bold;
+                            text-transform: uppercase;
+                            display: block;
+                        }
+                    }
+                    .seo {
+                        width: 75%;
+                        margin: 0 auto;
+                        .seo-text {
+                            @extend %seo-text;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .arrow-down {
+        height: 70vh;
+        max-height: 648px;
+        width: 40%;
+        max-width: 700px;
+        text-align: center;
+        background-image: url(../img/context/context_01_arrow_down.png);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 50%;
+        bottom: -40%;
+        margin-left: -20%;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    
+}
