@@ -1348,7 +1348,7 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:0 0;bor
 .tooltip.bottom .tooltip-arrow{left:50%;margin-left:-5px}
 .tooltip.bottom-left .tooltip-arrow{right:5px;margin-top:-5px}
 .tooltip.bottom-right .tooltip-arrow{left:5px;margin-top:-5px}
-.popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-size:14px;text-align:left;text-align:start;background-color:#fff;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);border-radius:6px;-webkit-box-shadow:0 5px 10px rgba(0,0,0,.2);box-shadow:0 5px 10px rgba(0,0,0,.2)}
+.popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:370px;padding:1px;font-size:14px;text-align:left;text-align:start;background-color:#fff;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);border-radius:6px;-webkit-box-shadow:0 5px 10px rgba(0,0,0,.2);box-shadow:0 5px 10px rgba(0,0,0,.2)}
 .carousel-caption,.carousel-control{color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.6);text-align:center}
 .popover.top{margin-top:-10px}
 .popover.right{margin-left:10px}
@@ -2211,7 +2211,6 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #index_01 .service_menu ul{width:100%;display:table-cell;vertical-align:middle;list-style:none;margin:0;padding:0}
 #index_01 .service_menu ul li{display:inline-block;width:20%;float:left;text-align:center;padding:0;height:100%}
 #index_01 .service_menu ul li a{font-size:1.715rem;text-transform:uppercase;color:#fff;text-decoration:underline}
-#sites_06 .link a,#sites_06 .link a:hover{text-decoration:none}
 @media (max-width:480px){#index_01{min-height:auto;height:auto;padding-bottom:30px}
 #index_01 .main_logo{width:90%;height:25vh;margin:2rem auto 0}
 #index_01 .text .text-wrap h1{font-size:2.8rem;padding:0 20px}
@@ -2318,7 +2317,7 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #index_05 .left .text-wrap .text .wrap:after{content:"?";font-size:18rem;margin-right:-7rem;margin-top:-15.8rem;line-height:1;float:right;font-weight:500;color:#231f20}
 #index_05 .left .text-wrap .text .wrap .p01{text-transform:uppercase;font-weight:600;font-size:3.5rem;line-height:1;margin:0;padding:0}
 #index_05 .left .text-wrap .text .wrap .p02{text-transform:uppercase;font-weight:900;line-height:1;font-size:7.3rem;margin:0;padding:0}
-#sites_02 .bullets .bullet p span,#sites_03 .sites .item .title{font-weight:600;text-transform:uppercase}
+#sites_02 .bullets .bullet p span,#sites_03 .sites .item .title{text-transform:uppercase;font-weight:600}
 #index_05 .left .text-wrap .text .wrap .p03{font-size:2.4rem;line-height:1;margin:0;padding:0}
 #index_05 .left .text-wrap .text .wrap .p03 .question{display:none;color:#231f20}
 #index_05 .right{height:100%}
@@ -2408,6 +2407,11 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #sites_01 .title .text-wrap .text h1 .sp01,#sites_01 .title .text-wrap .text h1 .sp03{font-size:2.5rem}
 #sites_01 .title .text-wrap .text h1 .sp02{font-size:3.5rem}
 }
+@media (min-width:768px) and (max-width:990px){#sites_01 .left,#sites_01 .right,#sites_01 .title .text-wrap .text .seo-text{display:none}
+#sites_01 .title .text-wrap .text h1{padding:0 15px}
+#sites_01 .title .text-wrap .text h1 .sp01,#sites_01 .title .text-wrap .text h1 .sp03{font-size:3rem}
+#sites_01 .title .text-wrap .text h1 .sp02{font-size:4.5rem}
+}
 #sites_02{background-image:url(../img/sites/sites-02.jpg);padding-bottom:60px}
 #sites_02 .container{box-shadow:0 5px 25px 1px rgba(219,219,219,.91);padding:60px 0}
 #sites_02 .seo-text{width:70%;display:block;margin:1.5rem auto}
@@ -2421,14 +2425,35 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #sites_02 .seo-text{display:none}
 #sites_02 .bullets .bullet p{font-size:1rem}
 }
+@media (min-width:768px) and (max-width:990px){#sites_02 h2{font-size:4.5rem}
+}
 #sites_03{background-image:url(../img/sites/sites-03.jpg);background-size:contain;padding:60px 0 30px}
 #sites_03 .sites{margin-top:60px}
 #sites_03 .sites .item{margin-bottom:60px}
 #sites_03 .sites .item .title{background:#fff44f;font-size:2.43rem;display:inline-block;line-height:1;padding:2px 7px}
-#sites_03 .sites .item .description{font-size:1.143rem;line-height:1.1;padding-left:7px}
-#sites_03 .sites .item a{background-image:url(../img/sites/sites-button-bg.jpg);background-repeat:no-repeat;background-size:contain;background-position:100% 50%;background-color:#F12D23;padding:3px 40px 3px 10px;display:inline-block;font-size:1.28rem;color:#fff;margin-left:7px}
+#sites_03 .sites .item .site-description{text-transform:lowercase;color:#B9B9B9;text-decoration:underline;cursor:pointer;display:inline-block;font-size:1.28rem;padding:0 10px}
+#sites_04 .right form .title,#sites_05 .bullets .item .text-wrap .text p span,#sites_06 .border .case-action p,#sites_06 .border .case-bar .after p,#sites_06 .border .case-bar .before p{text-transform:uppercase;font-weight:600}
+#sites_03 .sites .item .site-description:hover{color:#000}
+#sites_03 .sites .item .description{line-height:1.1;padding-left:7px}
+#sites_03 .sites .item .description ul{padding-left:25px}
+#sites_03 .sites .item .description ul li{font-size:1.71rem;list-style:none;line-height:1.55}
+#sites_03 .sites .item .description ul li:before{width:29px;height:29px;content:"";background-repeat:no-repeat;background-position:center;background-size:contain;position:absolute;margin-left:-32px}
+#sites_03 .sites .item .description ul .time-icon:before{background-image:url(../img/sites/icons/time-icon.png)}
+#sites_03 .sites .item .description ul .coin-icon:before{background-image:url(../img/sites/icons/coin-icon.png)}
+#sites_03 .sites .item .description ul .diagram-icon:before{background-image:url(../img/sites/icons/diagram-icon.png)}
+#sites_03 .sites .item .description ul .structure-icon:before{background-image:url(../img/sites/icons/structure-icon.png)}
+#sites_03 .sites .item .description ul .share-icon:before{background-image:url(../img/sites/icons/share-icon.png)}
+#sites_03 .sites .item .description ul .cash-icon:before{background-image:url(../img/sites/icons/cash-icon.png)}
+#sites_03 .sites .item .description ul .money-icon:before{background-image:url(../img/sites/icons/money-icon.png)}
+#sites_03 .sites .item .description ul .soc-icon:before{background-image:url(../img/sites/icons/soc-icon.png)}
+#sites_03 .sites .item .description ul .check-icon:before{background-image:url(../img/sites/icons/check-icon.png)}
+#sites_03 .sites .item a{font-size:1.71rem;color:#1b50e1;margin-left:7px;text-decoration:underline;cursor:pointer}
+#sites_06 .link a,#sites_06 .link a:hover{text-decoration:none}
 @media (max-width:480px){#sites_03{padding:30px 0 10px;background:0 0}
 #sites_03 .sites{margin-top:30px}
+#sites_03 .sites .item .site-description{display:none}
+}
+@media (min-width:768px) and (max-width:990px){#sites_03 h2{font-size:4.5rem}
 }
 #sites_04{background-image:url(../img/sites/sites_04.jpg);background-repeat:no-repeat;background-position:center;background-size:cover;padding:80px 0}
 #sites_04 .row{width:85%;margin:0 auto}
@@ -2439,7 +2464,7 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #sites_04 .right form{background:#fff;padding:60px 40px}
 #sites_04 .right form .deadline{font-size:1.71rem;background:#fff44f;line-height:1;padding:2px 5px;display:inline-block;position:absolute;top:20px;right:-20px}
 #sites_04 .right form .deadline span{font-weight:600}
-#sites_04 .right form .title{font-size:4.285rem;text-transform:uppercase;font-weight:600;line-height:1}
+#sites_04 .right form .title{font-size:4.285rem;line-height:1}
 #sites_04 .right form .input{font-size:1.71rem;border:1px solid #000;padding:8px 15px;width:100%;margin:10px 0}
 #sites_04 .right form .button{font-size:2.14rem;color:#fff;border-radius:3px;border:none;background:#1b50e1;padding:4px 15px;margin-top:10px}
 @media (max-width:480px){#sites_04{padding:40px 0}
@@ -2460,7 +2485,6 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #sites_05 .bullets .item .text-wrap{display:table;width:100%;height:100%}
 #sites_05 .bullets .item .text-wrap .text{display:table-cell;vertical-align:middle;width:100%;height:100%;text-align:center}
 #sites_05 .bullets .item .text-wrap .text p{background:#fff;font-size:1.9rem;line-height:1;display:inline-block;padding:4px 10px}
-#sites_05 .bullets .item .text-wrap .text p span{text-transform:uppercase;font-weight:600}
 #sites_05 .bullets .item:nth-child(1){background-image:url(../img/sites/sites_05_01.png)}
 #sites_05 .bullets .item:nth-child(2){background-image:url(../img/sites/sites_05_02.png)}
 #sites_05 .bullets .item:nth-child(3){background-image:url(../img/sites/sites_05_03.png)}
@@ -2468,14 +2492,14 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #sites_06 .case{width:70%;margin:45px auto 0}
 #sites_06 .border .border{padding:25px}
 #sites_06 .border{box-shadow:0 0 30px 10px rgba(0,0,0,.1);padding:50px}
-#sites_06 .border .case-action p{font-size:3.86rem;margin:30px auto;padding:3px 6px;background-color:#fff44f;line-height:1;display:inline-block;text-transform:uppercase;font-weight:600}
+#sites_06 .border .case-action p{font-size:3.86rem;margin:30px auto;padding:3px 6px;background-color:#fff44f;line-height:1;display:inline-block}
 #sites_06 .border .case-bar{width:100%;margin-top:35px}
 #sites_06 .border .case-bar .before{text-align:right}
-#sites_06 .border .case-bar .before p{font-size:3.7rem;text-transform:uppercase;font-weight:600;line-height:1;padding:0;margin:0}
+#sites_06 .border .case-bar .before p{font-size:3.7rem;line-height:1;padding:0;margin:0}
 #sites_06 .border .case-bar .process{text-align:center;background-image:url(../img/sites/case-bar.jpg);background-repeat:no-repeat;background-position:right center;min-height:60px}
 #sites_06 .border .case-bar .process p{font-size:2rem;background:#000;color:#fff44f;display:inline-block;line-height:1;padding:1px 6px;position:relative;top:-20px}
 #sites_06 .border .case-bar .after{text-align:left}
-#sites_06 .border .case-bar .after p{font-size:6rem;text-transform:uppercase;font-weight:600;line-height:1;padding:0;margin:-13px 0 0;color:#d8303f}
+#sites_06 .border .case-bar .after p{font-size:6rem;line-height:1;padding:0;margin:-13px 0 0;color:#d8303f}
 #sites_06 .border .case-bar .after p span{text-transform:lowercase;font-size:2.4rem;font-weight:100}
 #sites_06 .check{text-align:center;margin-top:50px}
 #sites_06 .check p{display:inline-block;background:#ccc;font-size:1.57rem;text-align:center;line-height:1;padding:2px 6px}

@@ -21,22 +21,53 @@
                 line-height: 1;
                 padding: 2px 7px;
             }
-            .description {
-                font-size: 1.143rem;
-                line-height: 1.1;
-                padding-left: 7px;
-            }
-            a {
-                background-image: url('../img/sites/sites-button-bg.jpg');
-                background-repeat: no-repeat;
-                background-size: contain;
-                background-position: 100% 50%;
-                background-color: $red;
-                padding: 3px 40px 3px 10px;
+            .site-description {
+                text-transform: lowercase;
+                color: $grey-light;
+                text-decoration: underline;
+                cursor: pointer;
                 display: inline-block;
                 font-size: 1.28rem;
-                color: #fff;
+                padding: 0 10px;
+                &:hover {color: #000;}
+            }
+            .description {
+                line-height: 1.1;
+                padding-left: 7px;
+                ul {
+                    padding-left: 25px;
+                    li {
+                        font-size: 1.71rem;
+                        list-style: none;
+                        line-height: 1.55;
+                        &:before {
+                            width: 29px;
+                            height: 29px;
+                            content: "";
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                            position: absolute;
+                            margin-left: -32px;
+                        }
+                    }
+                    .time-icon:before       {background-image: url(../img/sites/icons/time-icon.png);}
+                    .coin-icon:before       {background-image: url(../img/sites/icons/coin-icon.png);}
+                    .diagram-icon:before    {background-image: url(../img/sites/icons/diagram-icon.png);}
+                    .structure-icon:before  {background-image: url(../img/sites/icons/structure-icon.png);}
+                    .share-icon:before      {background-image: url(../img/sites/icons/share-icon.png);}
+                    .cash-icon:before       {background-image: url(../img/sites/icons/cash-icon.png);}
+                    .money-icon:before      {background-image: url(../img/sites/icons/money-icon.png);}
+                    .soc-icon:before        {background-image: url(../img/sites/icons/soc-icon.png);}
+                    .check-icon:before      {background-image: url(../img/sites/icons/check-icon.png);}
+                }
+            }
+            a {
+                font-size: 1.71rem;
+                color: $cyan;
                 margin-left: 7px;
+                text-decoration: underline;
+                cursor: pointer;
             }
         }
     }
@@ -48,7 +79,26 @@
         background: none;
         .sites {
             margin-top: 30px;
-            
+            .item {
+                .site-description {
+                    display: none;
+                }
+            }
         }
     }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    #sites_03 {
+        h2 {
+            font-size: 4.5rem;
+        }
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    
 }
