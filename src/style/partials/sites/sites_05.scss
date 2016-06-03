@@ -12,56 +12,184 @@
         }
     }
     .bullets {
-        width: 100%;
-        margin-top: 30px;
         .item {
-            height: 20rem;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            .text-wrap {
-                display: table;
+            margin: 40px 0;
+            .frame {
                 width: 100%;
-                height: 100%;
-                .text {
-                    display: table-cell;
-                    vertical-align: middle;
-                    width: 100%;
-                    height: 100%;
-                    text-align: center;
-                    p {
-                        background: #fff;
-                        font-size: 1.9rem;
-                        line-height: 1;
-                        display: inline-block;
-                        padding: 4px 10px;
-                        span {
-                            text-transform: uppercase;
-                            font-weight: 600
+                max-width: 570px;
+                margin: 0 auto;
+                background-image:url('../img/sites/sites-05-bullet.png');
+                background-repeat: repeat-y;
+                background-size: contain;
+                .text-wrap {
+                    display: table;
+                    padding: 35px;
+                    .text {
+                        display: table-cell;
+                        vertical-align: middle;
+                        height: 100%;
+                        .block {
+                            background: #fff;
+                            width: 100%;
+                            margin: 0 auto;
+                            padding: 25px 30px;
+                            .p01 {
+                                font-size: 4.28rem;
+                                text-transform: uppercase;
+                                font-weight: bold;
+                            }
+                            .p02 {
+                                font-size: 1.8rem;
+                                line-height: 1.1;
+                            }
                         }
                     }
                 }
             }
-            &:nth-child(1) {background-image: url('../img/sites/sites_05_01.png');}
-            &:nth-child(2) {background-image: url('../img/sites/sites_05_02.png');}
-            &:nth-child(3) {background-image: url('../img/sites/sites_05_03.png');}
-            
         }
     }
 }
 
 @media (max-width: 480px) {
-    
+    #sites_05 {
+        .bullets {
+            .item {
+                margin: 10px 0;
+                .frame {
+                    width: 100%;
+                    max-width: none;
+                    margin: 0 auto;
+                    background-image: none;
+                    background-color: $lemon-yellow;
+                    .text-wrap {
+                        display: block;
+                        padding: 15px;
+                        width: 100%;
+                        .text {
+                            display: block;
+                            .block {
+                                padding: 15px;
+                                text-align: center;
+                                .p01 {
+                                    font-size: 3rem;
+                                    margin:0
+                                }
+                                .p02 {
+                                    font-size: 1.6rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-    
+    #sites_05 {
+        .bullets {
+            .item {
+                margin: 10px 0;
+                .frame {
+                    width: 100%;
+                    max-width: none;
+                    margin: 0 auto;
+                    background-image: none;
+                    background-color: $lemon-yellow;
+                    .text-wrap {
+                        display: block;
+                        padding: 15px;
+                        width: 100%;
+                        .text {
+                            display: block;
+                            .block {
+                                padding: 15px;
+                                text-align: center;
+                                .p01 {
+                                    font-size: 3rem;
+                                    margin:0
+                                }
+                                .p02 {
+                                    font-size: 1.6rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
-
+    #sites_05 {
+        .bullets {
+            .item {
+                margin: 10px 0;
+                .frame {
+                    width: 100%;
+                    max-width: none;
+                    margin: 0 auto;
+                    background-image: none;
+                    background-color: $lemon-yellow;
+                    .text-wrap {
+                        display: block;
+                        padding: 15px;
+                        width: 100%;
+                        .text {
+                            display: block;
+                            .block {
+                                padding: 10px;
+                                text-align: center;
+                                .p01 {
+                                    font-size: 3rem;
+                                    margin:0
+                                }
+                                .p02 {
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
-    
+    #sites_05 {
+        .bullets {
+            .item {
+                margin: 10px 0;
+                .frame {
+                    width: 100%;
+                    max-width: none;
+                    margin: 0 auto;
+                    background-image: none;
+                    background-color: $lemon-yellow;
+                    .text-wrap {
+                        display: block;
+                        padding: 15px;
+                        width: 100%;
+                        .text {
+                            display: block;
+                            .block {
+                                padding: 10px;
+                                text-align: center;
+                                .p01 {
+                                    font-size: 3rem;
+                                    margin:0
+                                }
+                                .p02 {
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

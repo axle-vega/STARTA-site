@@ -107,6 +107,8 @@
                                     width: 184px;
                                     height: 75px;
                                     position: absolute;
+                                    left: -130px;
+                                    top: 37%;
                                     background-image:url('../img/sites/sites-04-bef-1.png');
                                     background-size: contain;
                                     background-repeat: no-repeat;
@@ -156,6 +158,18 @@
                                         &:hover {background: #F1443B;}
                                     }
                                 }
+                                &:after {
+                                    content: "";
+                                    width: 184px;
+                                    height: 75px;
+                                    position: absolute;
+                                    left: -130px;
+                                    bottom: 37%;
+                                    background-image:url('../img/sites/sites-04-bef-2.png');
+                                    background-size: contain;
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                }
                             }
                         }
                     }
@@ -168,16 +182,295 @@
 
 
 @media (max-width: 480px) {
-
+    #sites_04 {
+        .blocks-wrap {
+            .blocks {
+                .left {
+                    .text-wrap {
+                        min-height: auto;
+                        .text {
+                            .title {
+                                font-size: 3rem;
+                                text-align: center;
+                            }
+                            .subtitle {
+                                font-size: 3rem;
+                                text-align: center;
+                            }
+                            .deadline {
+                                text-align: center;
+                                margin: 0 auto;
+                                display: block;
+                                font-size: 1.3rem;
+                            }
+                        }
+                    }
+                }
+                .right {
+                    .presents-wrap {
+                        .presents {
+                            .pres-analysis {
+                                .text-wrap {
+                                    .text {
+                                        padding: 15px;
+                                        text-align: center;
+                                        .title {
+                                            font-size: 3rem;
+                                        }
+                                        .subtitle {
+                                            font-size: 2rem;
+                                        }
+                                    }
+                                    &:after {display: none;}
+                                }
+                            }
+                            .pres-audit {
+                                .text-wrap {
+                                    .text {
+                                        padding: 15px;
+                                        text-align: center;
+                                        .title {
+                                            font-size: 3rem;
+                                        }
+                                        .subtitle {
+                                            font-size: 2rem;
+                                        }
+                                    }
+                                    &:after {display: none;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
 @media (min-width: 481px) and (max-width: 767px) {
-    
+    #sites_04 {
+        .blocks-wrap {
+            .blocks {
+                .left {
+                    .text-wrap {
+                        min-height: auto;
+                        .text {
+                            .title {
+                                font-size: 3rem;
+                                text-align: center;
+                            }
+                            .subtitle {
+                                font-size: 3rem;
+                                text-align: center;
+                            }
+                            .deadline {
+                                text-align: center;
+                                margin: 0 auto;
+                                display: block;
+                                font-size: 1.3rem;
+                            }
+                        }
+                    }
+                }
+                .right {
+                    .presents-wrap {
+                        .presents {
+                            .pres-analysis {
+                                .text-wrap {
+                                    .text {
+                                        padding: 15px;
+                                        text-align: center;
+                                        .title {
+                                            font-size: 3rem;
+                                        }
+                                        .subtitle {
+                                            font-size: 2rem;
+                                        }
+                                    }
+                                    &:after {display: none;}
+                                }
+                            }
+                            .pres-audit {
+                                .text-wrap {
+                                    .text {
+                                        padding: 15px;
+                                        text-align: center;
+                                        .title {
+                                            font-size: 3rem;
+                                        }
+                                        .subtitle {
+                                            font-size: 2rem;
+                                        }
+                                    }
+                                    &:after {display: none;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
-
+    #sites_04 {
+        padding: 2vh 0;
+        .blocks-wrap {
+            .blocks {
+                .left {
+                    .text-wrap {
+                        min-height: auto;
+                        .text {
+                            .title {
+                                font-size: 7rem;
+                                text-align: center;
+                            }
+                            .subtitle {
+                                text-align: center;
+                            }
+                            .deadline {
+                                width: 50%;
+                                margin: 0 auto;
+                                display: block;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                .right {
+                    .presents-wrap {
+                        display: block;
+                        min-height: initial;
+                        .presents {
+                            display: block;
+                            .pres-analysis {
+                                .text-wrap {
+                                    display: block;
+                                    float: left;
+                                    width: 50%;                                    
+                                    min-height: initial;
+                                    max-height: 100%;
+                                    max-width: none;
+                                    .text {
+                                        padding: 15px;
+                                        text-align: center;
+                                        .title {
+                                            font-size: 3rem;
+                                        }
+                                        .subtitle {
+                                            font-size: 1.8rem;
+                                        }
+                                    }
+                                    &:after {display: none;}
+                                }
+                            }
+                            .pres-audit {
+                                .text-wrap {
+                                    display: block;
+                                    float: left;
+                                    width: 50%;
+                                    min-height: initial;
+                                    max-height: 100%;
+                                    max-width: none;
+                                    .text {
+                                        padding: 15px;
+                                        text-align: center;
+                                        .title {
+                                            font-size: 3rem;
+                                        }
+                                        .subtitle {
+                                            font-size: 1.8rem;
+                                        }
+                                    }
+                                    &:after {display: none;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
-    
+    #sites_04 {
+        padding: 2vh 0;
+        .blocks-wrap {
+            .blocks {
+                .left {
+                    .text-wrap {
+                        min-height: auto;
+                        .text {
+                            .title {
+                                font-size: 7rem;
+                                text-align: center;
+                            }
+                            .subtitle {
+                                text-align: center;
+                            }
+                            .deadline {
+                                width: 50%;
+                                margin: 0 auto;
+                                display: block;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                .right {
+                    .presents-wrap {
+                        display: block;
+                        min-height: initial;
+                        .presents {
+                            display: block;
+                            .pres-analysis {
+                                .text-wrap {
+                                    display: block;
+                                    float: left;
+                                    width: 50%;                                    
+                                    min-height: initial;
+                                    max-height: 100%;
+                                    max-width: none;
+                                    .text {
+                                        padding: 15px;
+                                        text-align: center;
+                                        .title {
+                                            font-size: 3rem;
+                                        }
+                                        .subtitle {
+                                            font-size: 1.8rem;
+                                        }
+                                    }
+                                    &:after {display: none;}
+                                }
+                            }
+                            .pres-audit {
+                                .text-wrap {
+                                    display: block;
+                                    float: left;
+                                    width: 50%;
+                                    min-height: initial;
+                                    max-height: 100%;
+                                    max-width: none;
+                                    .text {
+                                        padding: 15px;
+                                        text-align: center;
+                                        .title {
+                                            font-size: 3rem;
+                                        }
+                                        .subtitle {
+                                            font-size: 1.8rem;
+                                        }
+                                    }
+                                    &:after {display: none;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

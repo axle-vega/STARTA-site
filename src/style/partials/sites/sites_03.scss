@@ -88,17 +88,19 @@
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-    
+    #sites_03 {
+        display:none;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
     #sites_03 {
-        h2 {
-            font-size: 4.5rem;
-        }
+        display: none
     }
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
-    
+    #sites_03 {
+        display: none
+    }
 }
