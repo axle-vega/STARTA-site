@@ -2413,6 +2413,11 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #sites_01 .title .text-wrap .text h1 .sp01,#sites_01 .title .text-wrap .text h1 .sp03{font-size:3rem}
 #sites_01 .title .text-wrap .text h1 .sp02{font-size:4.5rem}
 }
+@media (min-width:991px) and (max-width:1199px){#sites_01 .left,#sites_01 .right,#sites_01 .title .text-wrap .text .seo-text{display:none}
+#sites_01 .title .text-wrap .text h1{padding:0 15px}
+#sites_01 .title .text-wrap .text h1 .sp01,#sites_01 .title .text-wrap .text h1 .sp03{font-size:5rem}
+#sites_01 .title .text-wrap .text h1 .sp02{font-size:8.5rem}
+}
 #sites_02{background-image:url(../img/sites/sites-02.jpg);padding-bottom:60px}
 #sites_02 .container{box-shadow:0 5px 25px 1px rgba(219,219,219,.91);padding:60px 0}
 #sites_02 .seo-text{width:70%;display:block;margin:1.5rem auto}
@@ -2701,24 +2706,62 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 @media (min-width:991px) and (max-width:1199px){#sites_09{display:none}
 }
 #sites_10{padding:10vh 0}
-#sites_10 .p01{font-size:2.57rem;background:#000;color:#fff;text-transform:uppercase;display:inline-block;line-height:1;padding:4px 10px;font-weight:700;margin:40px 0}
-#seo_01 .bottom-arrow,#seo_01 .text-wrap .text .subtitle:after,#seo_03,#seo_04{background-repeat:no-repeat;background-size:contain}
+#sites_10>.container{margin-bottom:70px}
+#sites_10 .p01{font-size:2.57rem;background:#000;color:#fff;text-transform:uppercase;display:inline-block;line-height:1;padding:4px 10px;font-weight:700;margin-top:70px}
 #sites_10 .container-fluid{background-image:url(../img/sites/sites-10-bg.jpg);background-repeat:no-repeat;background-position:center;height:420px}
 #sites_10 .blocks{width:100%;height:420px;margin:0 auto}
 #sites_10 .blocks .left .ul-wrap{display:table;min-height:420px;width:100%}
 #sites_10 .blocks .left .ul-wrap ul{display:table-cell;vertical-align:middle;margin:0;padding:0;list-style:none}
 #sites_10 .blocks .left .ul-wrap ul li{padding:20px 0}
-#sites_10 .blocks .left .ul-wrap ul li .num{display:table-cell;vertical-align:middle;height:100px;width:100px;border:4px solid #000;font-size:4.28rem;font-weight:700;text-align:center}
+#sites_10 .blocks .left .ul-wrap ul li .num{display:table-cell;vertical-align:middle;height:100px;width:100px;border:4px solid #000;font-size:4.28rem;font-weight:700;text-align:center;line-height:1}
 #sites_10 .blocks .left .ul-wrap ul li .text{display:table-cell;vertical-align:middle;height:100%;font-size:2.57rem;text-transform:uppercase;font-weight:700;color:#000;line-height:1;padding-left:15px}
 #sites_10 .blocks .left .ul-wrap ul li .text .big{font-size:3.42rem}
 #sites_10 .blocks .left .ul-wrap ul li .text .red{color:#d8303f}
 #sites_10 .blocks .left .ul-wrap ul li .text .small{font-size:2.14rem;text-transform:none;font-weight:100}
-@media (min-width:481px) and (max-width:767px){#sites_10{display:none}
+#sites_10 .blocks .right .iphone-wrap{text-align:center;width:287px;height:602px;display:block;margin:-150px auto 0;background-image:url(../img/sites/iphone.png);background-position:center;background-repeat:no-repeat}
+#sites_10 .blocks .right .iphone-wrap #iphone{position:relative;width:242px;height:416px;top:100px;left:22px;overflow:hidden;-ms-touch-action:none;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;-o-text-size-adjust:none;text-size-adjust:none}
+#sites_10 .blocks .right .iphone-wrap #scroll-iphone{position:absolute;-webkit-tap-highlight-color:transparent;-webkit-transform:translateZ(0);transform:translateZ(0)}
+@media (max-width:480px){#sites_10 .p01{font-size:2rem;text-align:center;display:block;width:85%;margin:15px auto;font-weight:100}
+#sites_10>.container{margin-bottom:10px}
+#sites_10 .container-fluid{background:#fff44f;height:initial}
+#sites_10 .blocks{height:auto}
+#sites_10 .blocks .left .ul-wrap{display:block;min-height:initial;padding:20px 0}
+#sites_10 .blocks .left .ul-wrap ul{display:block}
+#sites_10 .blocks .left .ul-wrap ul li{padding:10px 0;min-height:12vh}
+#sites_10 .blocks .left .ul-wrap ul li .num{display:block;float:left;height:initial;width:20%;border:2px solid #000;font-size:2rem;padding:8px;font-weight:700;background:#fff}
+#sites_10 .blocks .left .ul-wrap ul li .text{display:block;height:initial;width:80%;float:left;font-size:1.5rem;text-transform:uppercase}
+#sites_10 .blocks .left .ul-wrap ul li .text .big,#sites_10 .blocks .left .ul-wrap ul li .text .small{font-size:inherit}
+#sites_10 .blocks .right{display:none}
 }
-@media (min-width:768px) and (max-width:990px){#sites_10{display:none}
+@media (min-width:481px) and (max-width:767px){#sites_10 .p01{font-size:2rem;text-align:center;display:block;width:85%;margin:15px auto;font-weight:100}
+#sites_10>.container{margin-bottom:10px}
+#sites_10 .container-fluid{background:#fff44f;height:initial}
+#sites_10 .blocks{height:auto}
+#sites_10 .blocks .left .ul-wrap{display:block;min-height:initial;padding:20px 0}
+#sites_10 .blocks .left .ul-wrap ul{display:block}
+#sites_10 .blocks .left .ul-wrap ul li{padding:10px 0;min-height:12vh}
+#sites_10 .blocks .left .ul-wrap ul li .num{display:block;float:left;height:initial;width:20%;border:2px solid #000;font-size:2rem;padding:8px;font-weight:700;background:#fff}
+#sites_10 .blocks .left .ul-wrap ul li .text{display:block;height:initial;width:80%;float:left;font-size:1.5rem;text-transform:uppercase}
+#sites_10 .blocks .left .ul-wrap ul li .text .big,#sites_10 .blocks .left .ul-wrap ul li .text .small{font-size:inherit}
+#sites_10 .blocks .right{display:none}
 }
-@media (min-width:991px) and (max-width:1199px){#sites_10{display:none}
+@media (min-width:768px) and (max-width:990px){#sites_10{padding:4vh 0}
+#sites_10 .title{font-size:4.5rem}
+#sites_10 .p01{font-size:2.57rem;display:block;width:80%;margin:20px auto;text-align:center}
+#sites_10>.container{margin-bottom:10px}
+#sites_10 .container-fluid{background:#fff44f;height:initial}
+#sites_10 .blocks .right{padding:20px 0}
+#sites_10 .blocks .right .iphone-wrap{margin:0 auto}
 }
+@media (min-width:991px) and (max-width:1199px){#sites_10{padding:4vh 0}
+#sites_10 .title{font-size:4.5rem}
+#sites_10 .p01{font-size:2.57rem;display:block;width:80%;margin:20px auto;text-align:center}
+#sites_10>.container{margin-bottom:10px}
+#sites_10 .container-fluid{background:#fff44f;height:initial}
+#sites_10 .blocks .right{padding:20px 0}
+#sites_10 .blocks .right .iphone-wrap{margin:0 auto}
+}
+#seo_01 .bottom-arrow,#seo_01 .text-wrap .text .subtitle:after,#seo_03,#seo_04{background-repeat:no-repeat;background-size:contain}
 #seo_01{min-height:100vh;background-image:url(../img/seo/seo-01.jpg);background-position:center;background-size:cover;background-repeat:no-repeat}
 #seo_01 .text-wrap{display:table;height:80vh;width:100%}
 #seo_01 .text-wrap .text{display:table-cell;vertical-align:middle;text-align:center}

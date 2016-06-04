@@ -1,5 +1,8 @@
 #sites_10 {
     padding: 10vh 0;
+    > .container {
+        margin-bottom: 70px;
+    }
     .title {
         @extend %h2;
         span {
@@ -15,7 +18,7 @@
         line-height: 1;
         padding: 4px 10px;
         font-weight: bold;
-        margin: 40px 0;
+        margin-top: 70px;
     }
     .container-fluid {
         background-image: url(../img/sites/sites-10-bg.jpg);
@@ -49,6 +52,7 @@
                             font-size: 4.28rem;
                             font-weight: 700;
                             text-align: center;
+                            line-height: 1;
                         }
                         .text {
                             display: table-cell;
@@ -76,27 +80,248 @@
                 }
             }
         }
+        .right {
+            .iphone-wrap {
+                text-align: center;
+                width: 287px;
+                height: 602px;
+                display: block;
+                margin: -150px auto 0 auto;
+                background-image: url(../img/sites/iphone.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                #iphone {
+                    position: relative;
+                    width: 242px;
+                    height: 416px;
+                    top: 100px;
+                    left: 22px;
+                    overflow: hidden;
+
+                    /* Prevent native touch events on Windows */
+                    -ms-touch-action: none;
+
+                    /* Prevent the callout on tap-hold and text selection */
+                    -webkit-touch-callout: none;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+
+                    /* Prevent text resize on orientation change, useful for web-apps */
+                    -webkit-text-size-adjust: none;
+                    -moz-text-size-adjust: none;
+                    -ms-text-size-adjust: none;
+                    -o-text-size-adjust: none;
+                    text-size-adjust: none;
+                }
+
+                #scroll-iphone {
+                    position: absolute;
+
+                    /* Prevent elements to be highlighted on tap */
+                    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+                    /* Put the scroller into the HW Compositing layer right from the start */
+                    -webkit-transform: translateZ(0);
+                    -moz-transform: translateZ(0);
+                    -ms-transform: translateZ(0);
+                    -o-transform: translateZ(0);
+                    transform: translateZ(0);
+                }
+            }
+        }
     }
 }
 
 @media (max-width: 480px) {
-    
+    #sites_10 {
+        .p01 {
+            font-size: 2rem;
+            margin-top: 15px;
+            text-align: center;
+            display: block;
+            width: 85%;
+            margin: 15px auto;
+            font-weight: 100;
+        }
+        > .container {
+            margin-bottom: 10px;
+        }
+        .container-fluid {
+            background-image: none;
+            background: $lemon-yellow;
+            height: initial;
+        }
+        .blocks {
+            height: auto;
+            .left {
+                .ul-wrap {
+                    display: block;
+                    min-height: initial;
+                    padding: 20px 0;
+                    ul {
+                        display: block;
+                        li {
+                            padding: 10px 0;
+                            min-height: 12vh;
+                            .num {
+                                display: block;
+                                float: left;
+                                height: initial;
+                                width: 20%;
+                                border: 2px solid #000;
+                                font-size: 2rem;
+                                padding: 8px;
+                                font-weight: 700;
+                                background: #fff;
+                            }
+                            .text {
+                                display: block;
+                                height: initial;
+                                width: 80%;
+                                float: left;
+                                font-size: 1.5rem;
+                                text-transform: uppercase;
+                                .big, .small {
+                                    font-size: inherit;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .right {
+                display: none;
+            }
+        }
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
     #sites_10 {
-        display: none;
+        .p01 {
+            font-size: 2rem;
+            margin-top: 15px;
+            text-align: center;
+            display: block;
+            width: 85%;
+            margin: 15px auto;
+            font-weight: 100;
+        }
+        > .container {
+            margin-bottom: 10px;
+        }
+        .container-fluid {
+            background-image: none;
+            background: $lemon-yellow;
+            height: initial;
+        }
+        .blocks {
+            height: auto;
+            .left {
+                .ul-wrap {
+                    display: block;
+                    min-height: initial;
+                    padding: 20px 0;
+                    ul {
+                        display: block;
+                        li {
+                            padding: 10px 0;
+                            min-height: 12vh;
+                            .num {
+                                display: block;
+                                float: left;
+                                height: initial;
+                                width: 20%;
+                                border: 2px solid #000;
+                                font-size: 2rem;
+                                padding: 8px;
+                                font-weight: 700;
+                                background: #fff;
+                            }
+                            .text {
+                                display: block;
+                                height: initial;
+                                width: 80%;
+                                float: left;
+                                font-size: 1.5rem;
+                                text-transform: uppercase;
+                                .big, .small {
+                                    font-size: inherit;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .right {
+                display: none;
+            }
+        }
     }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
     #sites_10 {
-        display: none;
+        padding: 4vh 0;
+        .title {
+            font-size: 4.5rem;
+        }
+        .p01 {
+            font-size: 2.57rem;
+            display: block;
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        > .container {
+            margin-bottom: 10px;
+        }
+        .container-fluid {
+            background-image: none;
+            background: $lemon-yellow;
+            height: initial;
+        }
+        .blocks {
+            .right {
+                padding: 20px 0;
+                .iphone-wrap {
+                    margin: 0 auto;
+                }
+            }
+        }
     }
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
     #sites_10 {
-        display: none;
+        padding: 4vh 0;
+        .title {
+            font-size: 4.5rem;
+        }
+        .p01 {
+            font-size: 2.57rem;
+            display: block;
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        > .container {
+            margin-bottom: 10px;
+        }
+        .container-fluid {
+            background-image: none;
+            background: $lemon-yellow;
+            height: initial;
+        }
+        .blocks {
+            .right {
+                padding: 20px 0;
+                .iphone-wrap {
+                    margin: 0 auto;
+                }
+            }
+        }
     }
 }

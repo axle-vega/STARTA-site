@@ -150,5 +150,25 @@
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
-    
+    #sites_01 {
+        .left, .right {display: none;}
+        .title {
+            .text-wrap {
+                .text {
+                    h1 {
+                        padding: 0 15px;
+                        .sp01, .sp03 {
+                            font-size: 5rem;
+                        }
+                        .sp02 {
+                            font-size: 8.5rem;
+                        }
+                    }
+                    .seo-text {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
 }

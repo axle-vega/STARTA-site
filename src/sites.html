@@ -2,8 +2,16 @@
 <html>
     <head lang="ru">
         //= template/head.html
+        <script type="text/javascript" src="js/iscroll.js"></script>
+        <script type="text/javascript">
+            var myScroll;
+            function loaded () {
+                myScroll = new IScroll('#iphone');
+            }
+            // document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+        </script>
     </head>
-    <body>
+    <body onload="loaded()">
         //= template/header.html
         <section id="sites_01">
             <div class="container">
@@ -418,7 +426,13 @@
                                 </div>
                             </div>
                             <div class="right col-xs-12 col-md-6">
-                                
+                                <div class="iphone-wrap">
+                                    <div id="iphone">
+                                        <div id="scroll-iphone">
+                                            <img src="img/sites/resp-screen.jpg">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
