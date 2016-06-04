@@ -97,6 +97,7 @@
                     top: 100px;
                     left: 22px;
                     overflow: hidden;
+                    cursor: s-resize;
 
                     /* Prevent native touch events on Windows */
                     -ms-touch-action: none;
@@ -128,6 +129,9 @@
                     -ms-transform: translateZ(0);
                     -o-transform: translateZ(0);
                     transform: translateZ(0);
+                    img {
+                        width: 100%;
+                    }
                 }
             }
         }

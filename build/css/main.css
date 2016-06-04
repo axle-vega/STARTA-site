@@ -2719,8 +2719,9 @@ header .pushy-phone span{font-size:1.3rem;color:#dcdcdc}
 #sites_10 .blocks .left .ul-wrap ul li .text .red{color:#d8303f}
 #sites_10 .blocks .left .ul-wrap ul li .text .small{font-size:2.14rem;text-transform:none;font-weight:100}
 #sites_10 .blocks .right .iphone-wrap{text-align:center;width:287px;height:602px;display:block;margin:-150px auto 0;background-image:url(../img/sites/iphone.png);background-position:center;background-repeat:no-repeat}
-#sites_10 .blocks .right .iphone-wrap #iphone{position:relative;width:242px;height:416px;top:100px;left:22px;overflow:hidden;-ms-touch-action:none;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;-o-text-size-adjust:none;text-size-adjust:none}
+#sites_10 .blocks .right .iphone-wrap #iphone{position:relative;width:242px;height:416px;top:100px;left:22px;overflow:hidden;cursor:s-resize;-ms-touch-action:none;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;-o-text-size-adjust:none;text-size-adjust:none}
 #sites_10 .blocks .right .iphone-wrap #scroll-iphone{position:absolute;-webkit-tap-highlight-color:transparent;-webkit-transform:translateZ(0);transform:translateZ(0)}
+#sites_10 .blocks .right .iphone-wrap #scroll-iphone img{width:100%}
 @media (max-width:480px){#sites_10 .p01{font-size:2rem;text-align:center;display:block;width:85%;margin:15px auto;font-weight:100}
 #sites_10>.container{margin-bottom:10px}
 #sites_10 .container-fluid{background:#fff44f;height:initial}
