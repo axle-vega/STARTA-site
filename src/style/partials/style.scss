@@ -35,7 +35,25 @@ p, h1, h2 {color: #000;}
 .feedback {cursor: pointer;}
 .more {display: none;}
 .readmorelink {text-decoration: underline;cursor: pointer;}
-
+#button-up {
+    display: none;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    padding: 13px 10px 10px 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 50%;
+    border: 1px solid #fff;
+    cursor: pointer;
+    img {
+        width: 100%;
+        margin-top: -4px;
+    }
+    &:hover {
+        background-color: $red;
+    }
+}
 
 .fixed-menu {
     position: fixed !important;

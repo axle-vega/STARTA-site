@@ -202,6 +202,22 @@
 
 
 
+
+
+
+
+#sites-link-01, #sites-link-02 {
+    fill: $red;
+    stroke: null;
+}
+
+
+
+
+
+
+
+
 @keyframes svg_ef_site_01_1 {
   0% {
     transform: scaleX(1);
@@ -246,51 +262,3 @@
     transform:  scaleX(1) ;
   }
 }
-
-
-
-
-//@keyframes svg_ef_site_01_1 {
-//  0% {
-//    transform: rotateZ(180deg);
-//  }
-//  50% {
-//    transform:  rotateZ(-360deg) ;
-//  }
-//  100% {
-//    transform:  rotateZ(180deg) ;
-//  }
-//}
-//@keyframes svg_ef_site_01_2 {
-//  0% {
-//    transform: rotateZ(-180deg);
-//  }
-//  50% {
-//    transform:  rotateZ(360deg) ;
-//  }
-//  100% {
-//    transform:  rotateZ(-180deg) ;
-//  }
-//}
-//@keyframes svg_ef_site_01_3 {
-//  0% {
-//    transform: rotateZ(-80deg);
-//  }
-//  50% {
-//    transform:  rotateZ(320deg) ;
-//  }
-//  100% {
-//    transform:  rotateZ(-80deg) ;
-//  }
-//}
-//@keyframes svg_ef_site_01_4 {
-//  0% {
-//    transform: rotateZ(0deg);
-//  }
-//  50% {
-//    transform:  rotateZ(350deg) ;
-//  }
-//  100% {
-//    transform:  rotateZ(0deg) ;
-//  }
-//}
