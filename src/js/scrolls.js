@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $('a[href^="#"]').click(function(){
+    $('.scroll-down').click(function(){
         var el = $(this).attr('href');
         $('body').animate({
-        scrollTop: $(el).offset().top}, 600);
+        scrollTop: $(el).offset().top}, 700);
         return false;
     });
 });
